@@ -21,16 +21,38 @@
         .mirror-notice {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 15px;
+            padding: 20px 15px;
             text-align: center;
-            font-size: 14px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         
         .mirror-notice strong {
-            font-size: 16px;
+            font-size: 18px;
             display: block;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
+        }
+        
+        .mirror-notice .zh {
+            font-size: 15px;
+            margin-bottom: 6px;
+            line-height: 1.6;
+        }
+        
+        .mirror-notice .en {
+            font-size: 14px;
+            opacity: 0.95;
+            font-style: italic;
+            line-height: 1.5;
+        }
+        
+        .mirror-notice a {
+            color: #fff;
+            text-decoration: underline;
+            font-weight: 600;
+        }
+        
+        .mirror-notice a:hover {
+            opacity: 0.8;
         }
         
         .header {
@@ -149,8 +171,16 @@
 </head>
 <body>
     <div class="mirror-notice">
-        <strong>🔬 学术验证镜像 Academic Verification Mirror</strong>
-        本页面为教师教育数据平台的学术验证镜像,用于期刊论文审核。所有内容均来自公开可访问页面。
+        <strong>🔬 学术验证镜像 / Academic Verification Mirror</strong>
+        <p class="zh">
+            本页面为<strong>教师教育数据平台 (TEQD)</strong> 的学术验证镜像，专门用于期刊论文审核和平台验证。所有内容均来自公开可访问页面，已移除登录和敏感数据功能。
+        </p>
+        <p class="en">
+            This is an academic verification mirror of the <strong>Teacher Education Quality Data Platform (TEQD)</strong> for journal review and platform verification. All content is from publicly accessible pages with login and sensitive data features removed.
+        </p>
+        <p class="zh" style="margin-top: 10px;">
+            原始平台 / Original: <a href="https://teqd.zkey.cc/" target="_blank">https://teqd.zkey.cc/</a>
+        </p>
     </div>
     
     <header class="header">
@@ -170,90 +200,96 @@
     
     <div class="container">
         <div class="card">
-            <h2>📋 平台信息</h2>
-            <p style="margin-bottom: 20px;">
-                教师教育数据平台(TEQD)是一个专业的教育数据管理和分析系统,
-                为教师教育质量监测和研究提供数据支持。
+            <h2>📋 平台信息 / Platform Information</h2>
+            <p style="margin-bottom: 8px;">
+                教师教育数据平台(TEQD)是一个专业的教育数据管理和分析系统，为教师教育质量监测和研究提供数据支持。
+            </p>
+            <p style="margin-bottom: 20px; color: #666; font-size: 14px; font-style: italic;">
+                The Teacher Education Quality Data Platform (TEQD) is a professional education data management and analysis system, providing data support for teacher education quality monitoring and research.
             </p>
             
             <div class="info-grid">
                 <div class="info-item">
-                    <strong>平台地址</strong>
+                    <strong>平台地址 / Platform URL</strong>
                     <a href="https://teqd.zkey.cc/" target="_blank" class="original-link">
                         https://teqd.zkey.cc/
                     </a>
                 </div>
                 <div class="info-item">
-                    <strong>平台性质</strong>
-                    教育数据管理系统
+                    <strong>平台性质 / Type</strong>
+                    教育数据管理系统<br>
+                    <span style="font-size: 13px; color: #666;">Education Data Management System</span>
                 </div>
                 <div class="info-item">
-                    <strong>技术支持</strong>
-                    中科易研(北京)科技有限公司
+                    <strong>技术支持 / Technical Support</strong>
+                    中科易研(北京)科技有限公司<br>
+                    <span style="font-size: 13px; color: #666;">Zhongke Yiyan (Beijing) Technology Co., Ltd.</span>
                 </div>
                 <div class="info-item">
-                    <strong>备案信息</strong>
+                    <strong>备案信息 / ICP Registration</strong>
                     京ICP备05054367
                 </div>
             </div>
         </div>
         
         <div class="card">
-            <h2>🎯 关于此镜像</h2>
+            <h2>🎯 关于此镜像 / About This Mirror</h2>
             <div class="note">
-                <div class="note-title">⚠️ 重要说明</div>
+                <div class="note-title">⚠️ 重要说明 / Important Notice</div>
                 <ul style="margin-left: 20px; margin-top: 10px;">
-                    <li>本镜像仅用于学术论文审核和验证目的</li>
-                    <li>所有内容均来自公开可访问的网页</li>
-                    <li>已移除登录、数据接口等敏感功能</li>
-                    <li>原始平台功能完整,请访问上述官方地址</li>
+                    <li>
+                        <span style="color: #555;">本镜像仅用于学术论文审核和验证目的</span><br>
+                        <span style="color: #888; font-size: 13px; font-style: italic;">This mirror is for academic paper review and verification purposes only</span>
+                    </li>
+                    <li>
+                        <span style="color: #555;">所有内容均来自公开可访问的网页</span><br>
+                        <span style="color: #888; font-size: 13px; font-style: italic;">All content is from publicly accessible web pages</span>
+                    </li>
+                    <li>
+                        <span style="color: #555;">已移除登录、数据接口等敏感功能</span><br>
+                        <span style="color: #888; font-size: 13px; font-style: italic;">Login, data interfaces, and other sensitive features have been removed</span>
+                    </li>
+                    <li>
+                        <span style="color: #555;">原始平台功能完整，请访问上述官方地址</span><br>
+                        <span style="color: #888; font-size: 13px; font-style: italic;">For full functionality, please visit the official platform above</span>
+                    </li>
                 </ul>
             </div>
             
-            <h3 style="color: #348DC6; margin-top: 30px; margin-bottom: 15px;">镜像制作信息</h3>
+            <h3 style="color: #348DC6; margin-top: 30px; margin-bottom: 15px;">
+                镜像制作信息 / Mirror Creation Information
+            </h3>
             <div class="info-grid">
                 <div class="info-item">
-                    <strong>制作时间</strong>
-                    2025年11月
+                    <strong>制作时间 / Created</strong>
+                    2025年11月 / November 2025
                 </div>
                 <div class="info-item">
-                    <strong>制作工具</strong>
+                    <strong>制作工具 / Tools</strong>
                     HTTrack Website Copier
                 </div>
                 <div class="info-item">
-                    <strong>用途</strong>
-                    Springer期刊论文审核
+                    <strong>用途 / Purpose</strong>
+                    期刊论文审核<br>
+                    <span style="font-size: 13px; color: #666;">Journal Review</span>
                 </div>
                 <div class="info-item">
-                    <strong>状态</strong>
-                    <span style="color: #28a745;">✓ 已验证</span>
+                    <strong>状态 / Status</strong>
+                    <span style="color: #28a745;">✓ 已验证 / Verified</span>
                 </div>
-            </div>
-        </div>
-        
-        <div class="card">
-            <h2>🔗 相关资源</h2>
-            <p style="margin-bottom: 15px;">
-                镜像目录中包含了平台的其他子站点和资源页面,
-                您可以通过<a href="/mirror-index.html" class="original-link">导航页面</a>访问。
-            </p>
-            
-            <div style="background: #f8f9fa; padding: 15px; border-radius: 4px; margin-top: 15px;">
-                <strong>访问提示:</strong>
-                <ul style="margin-left: 20px; margin-top: 10px;">
-                    <li>原始动态功能(登录、数据查询等)在镜像中不可用</li>
-                    <li>如需完整功能,请访问官方网站</li>
-                    <li>本镜像展示平台的公开界面和基本信息</li>
-                </ul>
             </div>
         </div>
     </div>
     
     <footer class="footer">
-        <p>京ICP备05054367   技术支持：中科易研（北京）科技有限公司</p>
+        <p>京ICP备05054367 | 技术支持：中科易研（北京）科技有限公司</p>
+        <p style="margin-top: 8px; font-size: 12px; opacity: 0.95;">
+            Technical Support: Zhongke Yiyan (Beijing) Technology Co., Ltd.
+        </p>
         <p style="margin-top: 10px; font-size: 12px; opacity: 0.9;">
-            镜像制作于2025年 | 仅用于学术验证 | 
-            <a href="https://teqd.zkey.cc/" target="_blank">访问原始平台</a>
+            镜像制作于2025年 | 仅用于学术验证<br>
+            Mirror created in 2025 | For academic verification only | 
+            <a href="https://teqd.zkey.cc/" target="_blank">访问原始平台 Visit Original Platform</a>
         </p>
     </footer>
 </body>
