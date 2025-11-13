@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+<html>
+<!-- Mirrored from www.zkey.cc/News/details/616e0899cff39117c4398cbd by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Nov 2025 21:02:34 GMT -->
+<!-- Added by HTTrack --><meta content="text/html;charset=utf-8" http-equiv="content-type"/><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1,minmum-scale=1,maxmum-scale=1,user-scalable=no" name="viewport"/>
+<title>
+      中科易研：数据分析方法大总结
+     (Verification Mirror)</title>
+<meta content="" name="keywords"/>
+<meta content="" name="description"/>
+<link href="../../images/favicon.ico" rel="SHORTCUT ICON"/>
+<link href="../../css/swiper-3.4.2.min.css" rel="stylesheet"/>
+<link href="../../css/index1.css" rel="stylesheet"/>
+<link href="../../css/homepage.css" rel="stylesheet"/>
+<link href="../../css/solve_govDepartment.css" rel="stylesheet"/>
+<link href="../../css/DataFederation.css" rel="stylesheet"/>
+<link href="../../css/animate.min.css" rel="stylesheet"/>
+<link href="../../css/layer.css" rel="stylesheet"/>
+<link href="../../css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .titleName {
+    width: 200px;
+    height: 52px;
+    line-height: 50px;
+    font-size: 22px;
+    text-align: center;
+    border-bottom: 3px solid #B53033;
+  }
+
+  .NewsContent {
+    width: 75%;
+    margin: 40px auto;
+  }
+
+  .XWContent {
+    margin-top: 40px;
+    min-height: 300px;
+  }
+</style>
+<body><div class_="mirror-notice" style="background: #f0f8ff; padding: 10px; border: 1px solid #ccc; margin: 10px; text-align: center;">This is a verification mirror for academic publication purposes. Original platform: https://teqd.zkey.cc/</div>
+<!--导航-->
+<!-- <script type="text/javascript" src="https://auth.zkey.cc/api/Login/GetCookie"></script> -->
+<script src="../../js/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="../../js/jquery.cookie.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../js/swiper-3.4.2.jquery.min.js"></script>
+<script src="../../js/layer.js"></script>
+<script src="../../js/play_hs.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<!-- 百度统计 -->
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?63e61c7e03547d3eaf038244ad81ad21";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+<style>
+  .header_2 a {
+    color: #fff;
+  }
+
+  /*
+html{
+filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+-webkit-filter: grayscale(1);
+}
+*/
+</style>
+<div class="header">
+<div class="header_center">
+<div style="width: 200px;position: relative;display: inline-block;height: 100px;float: left;">
+<img alt="" src="../../images/icon.png"/>
+</div>
+<div style="height: 100px;width: 100%;position: absolute">
+<ul class="nav_center">
+<li class="header_1"><a href="../../index.html" style="color: #fff">首页</a></li>
+<li class="header_2 solve_plan1" style="position: relative;z-index: 0">平台产品
+          <ul class="head-dropdown1">
+<li class="dataCj" style="font-size: 12px">
+<div><span>数据采集  </span><img alt="" src="../../images/leftJT.png" style="float: none;margin-top: -1px"/></div>
+<ul class="head-dropdown4">
+<li style="font-size: 12px"><a href="../../platform/index.html">通用网络问卷平台</a></li>
+<li class="wkf1" style="font-size: 12px">互联网大数据采集平台</li>
+</ul>
+</li>
+<li class="datagl" style="font-size: 12px">
+<div><span>数据管理  </span><img alt="" src="../../images/leftJT.png" style="float: none;margin-top: -1px"/></div>
+<ul class="head-dropdown3">
+<li style="font-size: 12px"><a href="../../../edata.zkey.cc/index.html" target="_blank">科研数据管理平台（机构版）</a></li>
+<li style="font-size: 12px"><a href="../../../project.zkey.cc/index.html" target="_blank">科研数据管理平台（项目版）</a></li>
+</ul>
+</li>
+<li style="font-size: 12px"><a href="../../../edata.zkey.cc/project/common.html" style="margin-right: 16px" target="_blank">数据检索</a></li>
+<li style="font-size: 12px"><a href="../../../edata.zkey.cc/page/detail/60ddd4ee3d5b353ffb294f4a.html" style="margin-right: 4px" target="_blank">数据可视化</a></li>
+<li class="wkf2" style="font-size: 12px"><span style="margin-right: 4px">报告自动化</span></li>
+<li class="otherTab" style="font-size: 12px">
+<div><span>其他产品  </span><img alt="" src="../../images/leftJT.png" style="float: none;margin-top: -1px"/></div>
+<ul class="head-dropdown2">
+<li style="font-size: 12px"><a href="../../../caucy.zkey.cc/index.html" target="_blank">高校学生创新创业服务平台 [案例]</a>
+</li>
+<li style="font-size: 12px"><a href="../../../fjedu.zkey.cc/index.html" target="_blank">基础教育质量检测服务平台 [案例]</a>
+</li>
+<li style="font-size: 12px"><a href="../../../shxs.zkey.cc/index.html" target="_blank">科研机构科研成果管理系统 [案例]</a></li>
+<li style="font-size: 12px"><a href="../../../cyfgdj.zkey.cc/index.html" target="_blank">非公党建信息管理系统 [案例]</a></li>
+<li style="font-size: 12px"><a href="http://rk.blzjd.cn/" target="_blank">辖区人口信息管理系统 [案例]</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="header_3 solve_plan" style="height: 70px;position: relative;z-index: 0"><a href="../../solution/education" style="color: #fff">解决方案</a>
+<ul class="head-dropdown">
+<li style="font-size: 12px"><a href="../../solution/education" style="color: #fff;font-size: 12px">教育机构</a></li>
+<li><a href="../../solution/government.html" style="color: #fff;font-size: 12px">政府部门</a></li>
+<li style="font-size: 12px"><a href="../../index.html#comprehensive" style="color: #fff;font-size: 12px">科研单位</a></li>
+</ul>
+</li>
+<li class="header_4 solve_plan2" style="height: 70px;position: relative;z-index: 0"><a href="../../case.html" style="color: #fff">成功案例</a>
+<ul class="head-dropdown5">
+<li style="font-size: 12px"><a href="../../case/index5e67.html?CGtype=1" style="color: #fff;font-size: 12px">平台部署</a></li>
+<li><a href="../../case/index8d41.html?CGtype=2" style="color: #fff;font-size: 12px">调查项目</a></li>
+<li><a href="../../case/index692d.html?CGtype=3" style="color: #fff;font-size: 12px">咨询服务</a></li>
+</ul>
+</li>
+<!--<li class="header_5">易研指数</li>-->
+<li class="header_6"><a href="../../league.html" style="color: #fff">数据联盟</a></li>
+<li class="header_7"><a href="../list/index.html" style="color: #fff">新闻资讯</a>
+</li>
+<li class="header_8 solve_plan4" style="height: 70px;position: relative;z-index: 0"><a href="../../about.html" style="color: #fff">关于我们</a>
+<ul class="head-dropdown7">
+<li style="font-size: 12px"><a href="../../about/index1749.html?UStype=1" style="color: #fff;font-size: 12px">易研简介</a></li>
+<li><a href="../../about/index4d2b.html?UStype=2" style="color: #fff;font-size: 12px">成长历程</a></li>
+<li><a href="../../about/indexea85.html?UStype=3" style="color: #fff;font-size: 12px">资质荣誉</a></li>
+<li><a href="../../about/index09e8.html?UStype=4" style="color: #fff;font-size: 12px">加入我们</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="rightArea">
+<!-- <div class="c1 Login">登录</div>
+            <div class="LoginUserName" style="color: #fff;margin-right: 10px;display: none"></div>
+            <div class="c1 loginOut">注册</div> -->
+</div>
+</div>
+</div>
+<div class="neirong" style=" margin-top: 150px">
+<div class="NewsContent">
+<div class="Theme" style="text-align: center;margin-bottom: 30px;font-size: 22px;font-weight: bold">
+          中科易研：数据分析方法大总结
+        </div>
+<div style="height: 50px;margin-top: 30px;color: #aaaaaa;border-bottom: 1px solid #ccc;text-align: center;font-size: 14px">
+<div>
+<span class="ReleaseTime_toString">
+              2021-10-19  
+            </span>   
+            <span>作者：<span class="Author" style="margin-right: 15px;">
+</span></span>
+</div>
+</div>
+<div class="XWContent">
+<p style="text-align: center;"><img alt="" src="https://obs.cn-north-4.myhuaweicloud.com/publicbucket/base/public/ckeditor/616e0876e4b04718215a577c.jpg" style="width: 500px; height: 326px;"/></p>
+<p> </p>
+<p><strong><span style="line-height:3;">01描述统计</span></strong></p>
+<p><span style="line-height:3;">描述统计是通过图表或数学方法，对数据资料进行整理、分析，并对数据的分布状态、数字特征和随机变量之间关系进行估计和描述的方法。描述统计分为集中趋势分析和离中趋势分析和相关分析三大部分。</span></p>
+<p><span style="line-height:3;">△集中趋势分析</span></p>
+<p><span style="line-height:3;">集中趋势分析主要靠平均数、中数、众数等统计指标来表示数据的集中趋势。例如被试的平均成绩多少?是正偏分布还是负偏分布?</span></p>
+<p><span style="line-height:3;">△离中趋势分析</span></p>
+<p><span style="line-height:3;">离中趋势分析主要靠全距、四分差、平均差、方差(协方差：用来度量两个随机变量关系的统计量)、标准差等统计指标来研究数据的离中趋势。例如，我们想知道两个教学班的语文成绩中，哪个班级内的成绩分布更分散，就可以用两个班级的四分差或百分点来比较。</span></p>
+<p><span style="line-height:3;">△相关分析</span></p>
+<p><span style="line-height:3;">相关分析探讨数据之间是否具有统计学上的关联性。这种关系既包括两个数据之间的单一相关关系——如年龄与个人领域空间之间的关系，也包括多个数据之间的多重相关关系——如年龄、抑郁症发生率、个人领域空间之间的关系;既包括A大B就大(小)，A小B就小(大)的直线相关关系，也可以是复杂相关关系(A=Y-B*X);既可以是A、B变量同时增大这种正相关关系，也可以是A变量增大时B变量减小这种负相关，还包括两变量共同变化的紧密程度——即相关系数。</span></p>
+<p><span style="line-height:3;">实际上，相关关系唯一不研究的数据关系，就是数据协同变化的内在根据——即因果关系。获得相关系数有什么用呢?</span></p>
+<p><span style="line-height:3;">简而言之，有了相关系数，就可以根据回归方程，进行A变量到B变量的估算，这就是所谓的回归分析，因此，相关分析是一种完整的统计研究方法，它贯穿于提出假设，数据研究，数据分析，数据研究的始终。</span></p>
+<p><span style="line-height:3;">例如，我们想知道对监狱情景进行什么改造，可以降低囚徒的暴力倾向。我们就需要将不同的囚舍颜色基调、囚舍绿化程度、囚室人口密度、放风时间、探视时间进行排列组合，然后让每个囚室一种实验处理，然后用因素分析法找出与囚徒暴力倾向的相关系数最高的因素。</span></p>
+<p><span style="line-height:3;">假定这一因素为囚室人口密度，我们又要将被试随机分入不同人口密度的十几个囚室中生活，继而得到人口密度和暴力倾向两组变量(即我们讨论过的A、B两列变量)。然后，我们将人口密度排入X轴，将暴力倾向分排入Y轴，获得了一个很有价值的图表，当某典狱长想知道，某囚舍扩建到N人/间囚室，暴力倾向能降低多少。我们可以当前人口密度和改建后人口密度带入相应的回归方程，算出扩建前的预期暴力倾向和扩建后的预期暴力倾向，两数据之差即典狱长想知道的结果。</span></p>
+<p><span style="line-height:3;">△推论统计</span></p>
+<p><span style="line-height:3;">推论统计是统计学乃至于心理统计学中较为年轻的一部分内容。它以统计结果为依据，来证明或推翻某个命题。具体来说,就是通过分析样本与样本分布的差异，来估算样本与总体、同一样本的前后测成绩差异，样本与样本的成绩差距、总体与总体的成绩差距是否具有显著性差异。例如，我们想研究教育背景是否会影响人的智力测验成绩。可以找100名24岁大学毕业生和100名24岁初中毕业生。采集他们的一些智力测验成绩。用推论统计方法进行数据处理，最后会得出类似这样儿的结论：“研究发现，大学毕业生组的成绩显著高于初中毕业生组的成绩，二者在0.01水平上具有显著性差异，说明大学毕业生的一些智力测验成绩优于中学毕业生组。”</span></p>
+<p><span style="line-height:3;">△正态性检验</span></p>
+<p><span style="line-height:3;">很多统计方法都要求数值服从或近似服从正态分布，所以之前需要进行正态性检验。常用方法：非参数检验的K-量检验、P-P图、Q-Q图、W检验、动差法。</span></p>
+<p><strong><span style="line-height:3;">02 假设检验</span></strong></p>
+<p><span style="line-height:3;">△参数检验</span></p>
+<p><span style="line-height:3;">参数检验是在已知总体分布的条件下(一般要求总体服从正态分布)对一些主要的参数(如均值、百分数、方差、相关系数等)进行的检验。(1)U验 ：使用条件：当样本含量n较大时，样本值符合正态分布(2)T检验：使用条件：当样本含量n较小时，样本值符合正态分布A 单样本t检验：推断该样本来自的总体均数μ与已知的某一总体均数μ0 (常为理论值或标准值)有无差别;B 配对样本t检验：当总体均数未知时，且两个样本可以配对，同对中的两者在可能会影响处理效果的各种条件方面极为相似;C 两独立样本t检验：无法找到在各方面极为相似的两样本作配对比较时使用。</span></p>
+<p><span style="line-height:3;">△非参数检验</span></p>
+<p><span style="line-height:3;">非参数检验则不考虑总体分布是否已知，常常也不是针对总体参数，而是针对总体的某些一股性假设(如总体分布的位罝是否相同，总体分布是否正态)进行检验。适用情况：顺序类型的数据资料，这类数据的分布形态一般是未知的。</span></p>
+<p><span style="line-height:3;">A 虽然是连续数据，但总体分布形态未知或者非正态;B 体分布虽然正态，数据也是连续类型，但样本容量极小，如10以下;主要方法包括：卡方检验、秩和检验、二项检验、游程检验、K-量检验等。</span></p>
+<p><strong><span style="line-height:3;">03 信度分析</span></strong></p>
+<p><span style="line-height:3;">信度(Reliability)即可靠性，它是指采用同样的方法对同一对象重复测量时所得结果的一致性程度。信度指标多以相关系数表示，大致可分为三类：稳定系数(跨时间的一致性)，等值系数(跨形式的一致性)和内在一致性系数(跨项目的一致性)。信度分析的方法主要有以下四种：重测信度法、复本信度法、折半信度法、α信度系数法。</span></p>
+<p><span style="line-height:3;">△方法</span></p>
+<p><span style="line-height:3;">(1)重测信度法编辑：这一方法是用同样的问卷对同一组被调查者间隔一定时间重复施测，计算两次施测结果的相关系数。显然，重测信度属于稳定系数。重测信度法特别适用于事实式问卷，如性别、出生年月等在两次施测中不应有任何差异，大多数被调查者的兴趣、爱好、习惯等在短时间内也不会有十分明显的变化。如果没有突发事件导致被调查者的态度、意见突变，这种方法也适用于态度、意见式问卷。由于重测信度法需要对同一样本试测两次，被调查者容易受到各种事件、活动和他人的影响，而且间隔时间长短也有一定限制，因此在实施中有一定困难。</span></p>
+<p><span style="line-height:3;">(2)复本信度法编辑：让同一组被调查者一次填答两份问卷复本，计算两个复本的相关系数。复本信度属于等值系数。复本信度法要求两个复本除表述方式不同外，在内容、格式、难度和对应题项的提问方向等方面要完全一致，而在实际调查中，很难使调查问卷达到这种要求，因此采用这种方法者较少。</span></p>
+<p><span style="line-height:3;">(3)折半信度法编辑：折半信度法是将调查项目分为两半，计算两半得分的相关系数，进而估计整个量表的信度。折半信度属于内在一致性系数，测量的是两半题项得分间的一致性。这种方法一般不适用于事实式问卷(如年龄与性别无法相比)，常用于态度、意见式问卷的信度分析。在问卷调查中，态度测量最常见的形式是5级李克特(Likert)量表(李克特量表(Likert scale)是属评分加总式量表最常用的一种，属同一构念的这些项目是用加总方式来计分，单独或个别项目是无意义的。它是由美国社会心理学家李克特于1932年在原有的总加量表基础上改进而成的。该量表由一组陈述组成，每一陈述有"非常同意"、"同意"、"不一定"、"不同意"、"非常不同意"五种回答，分别记为5、4、3、2、1，每个被调查者的态度总分就是他对各道题的回答所得分数的加总，这一总分可说明他的态度强弱或他在这一量表上的不同状态)。</span></p>
+<p><span style="line-height:3;">进行折半信度分析时，如果量表中含有反意题项，应先将反意题项的得分作逆向处理，以保证各题项得分方向的一致性，然后将全部题项按奇偶或前后分为尽可能相等的两半，计算二者的相关系数(rhh，即半个量表的信度系数)，最后用斯皮尔曼-布朗(Spearman-Brown)公式：求出整个量表的信度系数(ru)。</span></p>
+<p><span style="line-height:3;">(4)α信度系数法：α信度系数是目前最常用的信度系数，其公式为：α=(k/(k-1))*(1-(∑Si^2)/ST^2)其中，K为量表中题项的总数， Si^2为第i题得分的题内方差， ST^2为全部题项总得分的方差。从公式中可以看出，α系数评价的是量表中各题项得分间的一致性，属于内在一致性系数。这种方法适用于态度、意见式问卷(量表)的信度分析。总量表的信度系数最好在0.8以上，0.7-0.8之间可以接受;分量表的信度系数最好在0.7以上，0.6-0.7还可以接受。Cronbach 's alpha系数如果在0.6以下就要考虑重新编问卷。用于检査测量的可信度，例如调查问卷的真实性。</span></p>
+<p><span style="line-height:3;">△分类</span></p>
+<p><span style="line-height:3;">(1)外在信度：不同时间测量时量表的一致性程度，常用方法重测信度(2)内在信度：每个量表是否测量到单一的概念，同时组成两表的内在体项一致性如何，常用方法分半信度。</span></p>
+<p><strong><span style="line-height:3;">04 列联表分析</span></strong></p>
+<p><span style="line-height:3;">列联表是观测数据按两个或更多属性(定性变量)分类时所列出的频数表。</span></p>
+<p><span style="line-height:3;">△简介：若总体中的个体可按两个属性A、B分类，A有r个等级A1,A2,…，Ar，B有c个等级B1,B2,…，Bc,从总体中抽取大小为n的样本，设其中有nij个个体的属性属于等级Ai和Bj，nij称为频数，将r×c个nij排列为一个r行c列的二维列联表，简称r×c表。若所考虑的属性多于两个，也可按类似的方式作出列联表，称为多维列联表。</span></p>
+<p><span style="line-height:3;">列联表又称交互分类表，所谓交互分类，是指同时依据两个变量的值，将所研究的个案分类。交互分类的目的是将两变量分组，然后比较各组的分布状况，以寻找变量间的关系。用于分析离散变量或定型变量之间是否存在相关。列联表分析的基本问题是，判明所考察的各属性之间有无关联，即是否独立。如在前例中，问题是：一个人是否色盲与其性别是否有关?</span></p>
+<p><span style="line-height:3;">在r×с表中，若以pi、pj和pij分别表示总体中的个体属于等级Ai，属于等级Bj和同时属于Ai、Bj的概率(pi，pj称边缘概率，pij称格概率),“A、B两属性无关联”的假设可以表述为H0：pij=pi·pj，(i=1，2，…，r;j=1,2,…，с)，未知参数pij、pi、pj的最大似然估计(见点估计)分别为行和及列和(统称边缘和)为样本大小。根据K.皮尔森(1904)的拟合优度检验或似然比检验(见假设检验),当h0成立，且一切pi&gt;0和pj&gt;0时，统计量的渐近分布是自由度为(r-1)(с-1) 的Ⅹ分布，式中Eij=(ni·nj)/n称为期望频数。当n足够大，且表中各格的Eij都不太小时，可以据此对h0作检验：若Ⅹ值足够大，就拒绝假设h0，即认为A与B有关联。在前面的色觉问题中，曾按此检验，判定出性别与色觉之间存在某种关联。</span></p>
+<p><span style="line-height:3;">△需要注意：</span></p>
+<p><span style="line-height:3;">若样本大小n不很大,则上述基于渐近分布的方法就不适用。对此，在四格表情形，R.A.费希尔(1935)提出了一种适用于所有n的精确检验法其思想是在固定各边缘和的条件下，根据超几何分布(见概率分布)，可以计算观测频数出现任意一种特定排列的条件概率。把实际出现的观测频数排列，以及比它呈现更多关联迹象的所有可能排列的条件概率都算出来并相加，若所得结果小于给定的显著性水平，则判定所考虑的两个属性存在关联，从而拒绝h0。对于二维表，可进行卡方检验，对于三维表，可作Mentel-Hanszel分层分析。列联表分析还包括配对计数资料的卡方检验、行列均为顺序变量的相关检验。</span></p>
+<p><strong><span style="line-height:3;">05 相关分析</span></strong></p>
+<p><span style="line-height:3;">研究现象之间是否存在某种依存关系，对具体有依存关系的现象探讨相关方向及相关程度。(1)单相关：两个因素之间的相关关系叫单相关，即研究时只涉及一个自变量和一个因变量;(2)复相关 ：三个或三个以上因素的相关关系叫复相关，即研究时涉及两个或两个以上的自变量和因变量相关;(3)偏相关：在某一现象与多种现象相关的场合，当假定其他变量不变时，其中两个变量之间的相关关系称为偏相关。</span></p>
+<p><span style="line-height:3;">06 方差分析</span></p>
+<p><span style="line-height:3;">使用条件：各样本须是相互独立的随机样本;各样本来自正态分布总体;各总体方差相等。</span></p>
+<p><span style="line-height:3;">△分类</span></p>
+<p><span style="line-height:3;">(1)单因素方差分析：一项试验只有一个影响因素，或者存在多个影响因素时，只分析一个因素与响应变量的关系(2)多因素有交互方差分析：一项实验有多个影响因素，分析多个影响因素与响应变量的关系，同时考虑多个影响因素之间的关系(3)多因素无交互方差分析：分析多个影响因素与响应变量的关系，但是影响因素之间没有影响关系或忽略影响关系(4)协方差分析：传统的方差分析存在明显的弊端，无法控制分析中存在的某些随机因素，使之影响了分析结果的准确度。协方差分析主要是在排除了协变量的影响后再对修正后的主效应进行方差分析，是将线性回归与方差分析结合起来的一种分析方法，</span></p>
+<p><strong><span style="line-height:3;">06 回归分析</span></strong></p>
+<p><span style="line-height:3;">△一元线性回归分析：只有一个自变量X与因变量Y有关，X与Y都必须是连续型变量，因变量y或其残差必须服从正态分布。</span></p>
+<p><span style="line-height:3;">△多元线性回归分析：</span></p>
+<p><span style="line-height:3;">使用条件：分析多个自变量与因变量Y的关系，X与Y都必须是连续型变量，因变量y或其残差必须服从正态分布 。(1)变呈筛选方式选择最优回归方程的变里筛选法包括全横型法(CP法)、逐步回归法，向前引入法和向后剔除法(2)横型诊断方法A 残差检验：观测值与估计值的差值要服从正态分布B 强影响点判断：寻找方式一般分为标准误差法、Mahalanobis距离法C 共线性诊断：• 诊断方式：容忍度、方差扩大因子法(又称膨胀系数VIF)、特征根判定法、条件指针CI、方差比例• 处理方法：增加样本容量或选取另外的回归如主成分回归、岭回归等</span></p>
+<p><span style="line-height:3;">△Logistic回归分析线性回归模型要求因变量是连续的正态分布变量，且自变量和因变量呈线性关系，而Logistic回归模型对因变量的分布没有要求，一般用于因变量是离散时的情况</span></p>
+<p><span style="line-height:3;">分类：Logistic回归模型有条件与非条件之分，条件Logistic回归模型和非条件Logistic回归模型的区别在于参数的估计是否用到了条件概率。</span></p>
+<p><span style="line-height:3;">△其他回归方法非线性回归、有序回归、Probit回归、加权回归</span></p>
+<p><strong><span style="line-height:3;">07 聚类分析</span></strong></p>
+<p><span style="line-height:3;">聚类与分类的不同在于，聚类所要求划分的类是未知的。聚类分析是一种探索性的分析，在分类的过程中，人们不必事先给出一个分类的标准，聚类分析能够从样本数据出发，自动进行分类。聚类分析所使用方法的不同，常常会得到不同的结论。不同研究者对于同一组数据进行聚类分析，所得到的聚类数未必一致。</span></p>
+<p><span style="line-height:3;">从实际应用的角度看，聚类分析是数据挖掘的主要任务之一。而且聚类能够作为一个独立的工具获得数据的分布状况，观察每一簇数据的特征，集中对特定的聚簇集合作进一步地分析。聚类分析还可以作为其他算法(如分类和定性归纳算法)的预处理步骤。</span></p>
+<p><span style="line-height:3;">△定义</span></p>
+<p><span style="line-height:3;">依据研究对象(样品或指标)的特征，对其进行分类的方法，减少研究对象的数目。各类事物缺乏可靠的历史资料，无法确定共有多少类别，目的是将性质相近事物归入一类。各指标之间具有一定的相关关系。变量类型：定类变量、定量(离散和连续)变量样本个体或指标变量按其具有的特性进行分类，寻找合理的度量事物相似性的统计量。</span></p>
+<p><span style="line-height:3;">△性质分类</span></p>
+<p><span style="line-height:3;">Q型聚类分析：对样本进行分类处理，又称样本聚类分析使用距离系数作为统计量衡量相似度，如欧式距离、极端距离、绝对距离等。R型聚类分析：对指标进行分类处理，又称指标聚类分析使用相似系数作为统计量衡量相似度，相关系数、列联系数等。△方法分类(1)系统聚类法：适用于小样本的样本聚类或指标聚类，一般用系统聚类法来聚类指标，又称分层聚类。(2)逐步聚类法：适用于大样本的样本聚类。(3)其他聚类法：两步聚类、K均值聚类等。</span></p>
+<p><strong><span style="line-height:3;">08 判别分析</span></strong></p>
+<p><span style="line-height:3;">△判别分析</span></p>
+<p><span style="line-height:3;">根据已掌握的一批分类明确的样品建立判别函数，使产生错判的事例最少，进而对给定的一个新样品，判断它来自哪个总体。</span></p>
+<p><span style="line-height:3;">△与聚类分析区别</span></p>
+<p><span style="line-height:3;">(1)聚类分析可以对样本逬行分类，也可以对指标进行分类;而判别分析只能对样本。(2)聚类分析事先不知道事物的类别，也不知道分几类;而判别分析必须事先知道事物的类别，也知道分几类。(3)聚类分析不需要分类的历史资料，而直接对样本进行分类;而判别分析需要分类历史资料去建立判别函数，然后才能对样本进行分类。</span></p>
+<p><span style="line-height:3;">△进行分类</span></p>
+<p><span style="line-height:3;">(1)Fisher判别分析法以距离为判别准则来分类，即样本与哪个类的距离最短就分到哪一类，适用于两类判别;以概率为判别准则来分类，即样本属于哪一类的概率最大就分到哪一类，适用于多类判别。</span></p>
+<p><span style="line-height:3;">(2)BAYES判别分析法BAYES判别分析法比FISHER判别分析法更加完善和先进，它不仅能解决多类判别分析，而且分析时考虑了数据的分布状态，所以一般较多使用;</span></p>
+<p><strong><span style="line-height:3;">09 主成分分析</span></strong></p>
+<p><span style="line-height:3;">主成分分析(Principal Component Analysis，PCA)， 是一种统计方法。通过正交变换将一组可能存在相关性的变量转换为一组线性不相关的变量，转换后的这组变量叫主成分。主成分分析首先是由K.皮尔森(Karl Pearson)对非随机变量引入的，尔后H.霍特林将此方法推广到随机向量的情形。信息的大小通常用离差平方和或方差来衡量。</span></p>
+<p><span style="line-height:3;">△原理</span></p>
+<p><span style="line-height:3;">在用统计分析方法研究多变量的课题时，变量个数太多就会增加课题的复杂性。人们自然希望变量个数较少而得到的信息较多。</span></p>
+<p><span style="line-height:3;">在很多情形，变量之间是有一定的相关关系的，当两个变量之间有一定相关关系时，可以解释为这两个变量反映此课题的信息有一定的重叠。主成分分析是对于原先提出的所有变量，将重复的变量(关系紧密的变量)删去多余，建立尽可能少的新变量，使得这些新变量是两两不相关的，而且这些新变量在反映课题的信息方面尽可能保持原有的信息。</span></p>
+<p><span style="line-height:3;">设法将原来变量重新组合成一组新的互相无关的几个综合变量，同时根据实际需要从中可以取出几个较少的综合变量尽可能多地反映原来变量的信息的统计方法叫做主成分分析或称主分量分析，也是数学上用来降维的一种方法。</span></p>
+<p><span style="line-height:3;">△缺点</span></p>
+<p><span style="line-height:3;">1、在主成分分析中，我们首先应保证所提取的前几个主成分的累计贡献率达到一个较高的水平(即变量降维后的信息量须保持在一个较高水平上)，其次对这些被提取的主成分必须都能够给出符合实际背景和意义的解释(否则主成分将空有信息量而无实际含义)。2、主成分的解释其含义一般多少带有点模糊性，不像原始变量的含义那么清楚、确切，这是变量降维过程中不得不付出的代价。因此，提取的主成分个数m通常应明显小于原始变量个数p(除非p本身较小)，否则维数降低的“利”可能抵不过主成分含义不如原始变量清楚的“弊”。</span></p>
+<p><strong><span style="line-height:3;">10 因子分析</span></strong></p>
+<p><span style="line-height:3;">一种旨在寻找隐藏在多变量数据中、无法直接观察到却影响或支配可测变量的潜在因子、并估计潜在因子对可测变量的影响程度以及潜在因子之间的相关性的一种多元统计分析方法。与主成分分析比较：相同：都能够起到治理多个原始变量内在结构关系的作用不同：主成分分析重在综合原始变量的信息.而因子分析重在解释原始变量间的关系，是比主成分分析更深入的一种多元统计方法</span></p>
+<p><span style="line-height:3;">用途：(1)减少分析变量个数(2)通过对变量间相关关系探测，将原始变量进行分类</span></p>
+<p><strong><span style="line-height:3;">11 时间序列分析</span></strong></p>
+<p><span style="line-height:3;">动态数据处理的统计方法，研究随机数据序列所遵从的统计规律，以用于解决实际问题;时间序列通常由4种要素组成：趋势、季节变动、循环波动和不规则波动。△时间序列预测法的应用系统描述：根据对系统进行观测得到的时间序列数据，用曲线拟合方法对系统进行客观的描述;系统分析：当观测值取自两个以上变量时，可用一个时间序列中的变化去说明另一个时间序列中的变化，从而深入了解给定时间序列产生的机理;预测未来：一般用ARMA模型拟合时间序列，预测该时间序列未来值;决策和控制：根据时间序列模型可调整输入变量使系统发展过程保持在目标值上，即预测到过程要偏离目标时便可进行必要的控制。</span></p>
+<p><strong><span style="line-height:3;">12 生存分析</span></strong></p>
+<p><span style="line-height:3;">用来研究生存时间的分布规律以及生存时间和相关因索之间关系的一种统计分析方法</span></p>
+<p><span style="line-height:3;">△包含内容</span></p>
+<p><span style="line-height:3;">(1)描述生存过程，即研究生存时间的分布规律(2)比较生存过程，即研究两组或多组生存时间的分布规律，并进行比较(3)分析危险因素，即研究危险因素对生存过程的影响(4)建立数学模型，即将生存时间与相关危险因素的依存关系用一个数学式子表示出来。</span></p>
+<p><span style="line-height:3;">△方法(1)统计描述：包括求生存时间的分位数、中数生存期、平均数、生存函数的估计、判断生存时间的图示法，不对所分析的数据作出任何统计推断结论(2)非参数检验：检验分组变量各水平所对应的生存曲线是否一致，对生存时间的分布没有要求，并且检验危险因素对生存时间的影响。</span></p>
+<p><span style="line-height:3;">A 乘积极限法(PL法)B 寿命表法(LT法)(3)半参数横型回归分析：在特定的假设之下，建立生存时间随多个危险因素变化的回归方程，这种方法的代表是Cox比例风险回归分析法(4)参数模型回归分析：已知生存时间服从特定的参数横型时，拟合相应的参数模型，更准确地分析确定变量之间的变化规律</span></p>
+<p><strong><span style="line-height:3;">13 典型相关分析</span></strong></p>
+<p><span style="line-height:3;">相关分析一般分析两个变量之间的关系，而典型相关分析是分析两组变量(如3个学术能力指标与5个在校成绩表现指标)之间相关性的一种统计分析方法。典型相关分析的基本思想和主成分分析的基本思想相似，它将一组变量与另一组变量之间单变量的多重线性相关性研究转化为对少数几对综合变量之间的简单线性相关性的研究，并且这少数几对变量所包含的线性相关性的信息几乎覆盖了原变量组所包含的全部相应信息。</span></p>
+<p><strong><span style="line-height:3;">14 R0C分析</span></strong></p>
+<p><span style="line-height:3;">R0C曲线是根据一系列不同的二分类方式(分界值或决定阈).以真阳性率(灵敏度)为纵坐标，假阳性率(1-特异度)为横坐标绘制的曲线。</span></p>
+<p><span style="line-height:3;">用途：1、R0C曲线能很容易地査出任意界限值时的对疾病的识别能力用途;2、选择最佳的诊断界限值。R0C曲线越靠近左上角，试验的准确性就越高;3、两种或两种以上不同诊断试验对疾病识别能力的比较，一般用R0C曲线下面积反映诊断系统的准确性。</span></p>
+<p><strong><span style="line-height:3;">15 其他分析方法</span></strong></p>
+<p><span style="line-height:3;">多重响应分析、距离分析、项目分析、对应分析、决策树分析、神经网络、系统方程、蒙特卡洛模拟等。</span></p>
+<p><span style="line-height:3;">决策树分析与随机森林：尽管有剪枝等等方法，一棵树的生成肯定还是不如多棵树，因此就有了随机森林，解决决策树泛化能力弱的缺点。(可以理解成三个臭皮匠顶过诸葛亮)决策树(Decision Tree)是在已知各种情况发生概率的基础上，通过构成决策树来求取净现值的期望值大于等于零的概率，评价项目风险，判断其可行性的决策分析方法，是直观运用概率分析的一种图解法。由于这种决策分支画成图形很像一棵树的枝干，故称决策树。</span></p>
+<p><span style="line-height:3;">在机器学习中，决策树是一个预测模型，他代表的是对象属性与对象值之间的一种映射关系。Entropy = 系统的凌乱程度，使用算法ID3, C4.5和C5.0生成树算法使用熵。这一度量是基于信息学理论中熵的概念。分类树(决策树)是一种十分常用的分类方法。他是一种监管学习，所谓监管学习就是给定一堆样本，每个样本都有一组属性和一个类别，这些类别是事先确定的，那么通过学习得到一个分类器，这个分类器能够对新出现的对象给出正确的分类。这样的机器学习就被称之为监督学习。</span></p>
+<p><span style="line-height:3;">优点：决策树易于理解和实现，人们在在学习过程中不需要使用者了解很多的背景知识，这同时是它的能够直接体现数据的特点，只要通过解释后都有能力去理解决策树所表达的意义。对于决策树，数据的准备往往是简单或者是不必要的，而且能够同时处理数据型和常规型属性，在相对短的时间内能够对大型数据源做出可行且效果良好的结果。易于通过静态测试来对模型进行评测，可以测定模型可信度;如果给定一个观察的模型，那么根据所产生的决策树很容易推出相应的逻辑表达式。</span></p>
+<p><span style="line-height:3;">缺点：对连续性的字段比较难预测;对有时间顺序的数据，需要很多预处理的工作;当类别太多时，错误可能就会增加的比较快;一般的算法分类的时候，只是根据一个字段来分类。</span></p>
+<p><span style="line-height:3;">中科易研以十余年行业积累为基础，结合互联网大数据技术，秉承“数据、信息、知识、智慧”的方法论，坚持“用数据说话、用数据决策、用数据管理、用数据创新”的理念，以自主研发获得国家发明专利的易研问卷平台和易研大数据云平台为依托，专注于为教育科研机构、政府企事业单位提供基于数据采集、数据清洗、数据检索、数据管理、数据分析和可视化、数据资源整合等全流程数据服务，并为用户提供大数据云平台搭建服务。</span></p>
+</div>
+</div>
+</div>
+<div style="width: 75%;height: 100px;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;margin: 50px auto;color: #666666;font-size: 12px;display:flex;justify-content:space-between;align-items:center;line-height:30px">
+<div style="display: inline-block">
+<p>
+<span>上一条：</span>
+<span class="prevNews">
+<a href="616e06119d79152310a7bbe8.html">中科易研:短期内如何快速回收调查问卷？</a>
+</span>
+</p>
+<p>
+<span>下一条：</span>
+<span class="nextNews">
+<a href="616cb96d2b6493129b609580.html">中科易研告诉您一份优秀的问卷调查表设计方法？</a>
+</span>
+</p>
+</div>
+<a href="javascript:;" onclick="javascript:history.back(-1);" style="color: #666666">
+<div style="width: 80px;height: 30px;line-height: 30px;text-align: center;border: 1px solid #1f71ff;float: right;cursor: pointer;border-radius: 3px;background-color: #1f71ff;
+    color: #fff;">
+<i class="fa fa-long-arrow-left" style="margin-right: 5px"></i>返回
+        </div>
+</a>
+</div>
+<div class="solve_bottom">
+<div class="bottom_information">
+<div style="width: 100%;height: 120px;border-bottom: 1px solid #ccc;">
+<div class="bottom_information_area suspension_1" style="height: 65px;margin-top: 55px">
+<img alt="" class="img_1" src="../../images/weizhi_1.png" style="top: 25px">
+<img alt="" class="img_2" src="../../images/weizhi.png" style="display: none">
+</img></img></div>
+<div class="bottom_information_area suspension_2" style="height: 65px;margin-top: 55px">
+<img alt="" class="img_1" src="../../images/weixin.png" style="top: 25px"/>
+<img alt="" class="img_2" src="../../images/liaotian.png" style="display: none"/>
+</div>
+<div class="bottom_information_area suspension_3" style="height: 65px;margin-top: 55px">
+<img alt="" class="img_1" src="../../images/weibiaoti-.png" style="top: 25px"/>
+<img alt="" class="img_2" src="../../images/dianhua.png" style="display: none"/>
+</div>
+<div class="bottom_information_area suspension_4" style="height: 65px;margin-top: 55px">
+<img alt="" class="img_1" src="../../images/xinfeng_1.png" style="top: 25px"/>
+<img alt="" class="img_2" src="../../images/xin.png" style="display: none"/>
+</div>
+</div>
+<div style="margin-top: 25px;color: #fff;font-size: 14px">
+<span>语言</span><span style="margin-left: 70px">简体中文</span>
+</div>
+<div style="margin-top: 25px;color: #fff;font-size: 14px">
+<span>新闻与公告</span><span style="margin-left: 29px"><a href="../../News.html" style="color: #fff">新闻与公告</a></span>
+</div>
+<div style="margin-top: 25px;color: #fff;font-size: 14px">
+<span>快速链接</span>
+<span style="margin-left: 43px">
+<a href="http://csqr.cass.cn/" style="color: #fff" target="_blank">中国社科院社会质量基础数据库</a>
+</span>
+<span style="margin-left: 43px">
+<a href="../../../cpdrc.zkey.cc/index.html" style="color: #fff" target="_blank">全国人口数据综合集成应用平台</a>
+</span>
+<span style="margin-left: 43px">
+<a href="https://edudata.pku.edu.cn/" style="color: #fff" target="_blank">北京大学江山教育大数据平台</a>
+</span>
+<span style="margin-left: 43px">
+<a href="https://medudata.bjmu.edu.cn/" style="color: #fff" target="_blank">全国医学教育发展中心信息与数据平台</a>
+</span>
+<!-- <span style="margin-left: 43px">
+        <a style="color: #fff"
+          target=_blank href="https://cgss.zkey.cc/">中国人民大学“中国综合社会调查数据管理平台”</a>
+      </span> -->
+</div>
+</div>
+<div class="bottom_content">
+<span>联系方式：010-5603-6481     </span>
+<span>地址：北京市朝阳区广渠路66号院8号楼百环青创大厦三层303室    中科易研（北京）科技有限公司</span>
+<span>     <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">京ICP备15051429号-1</a></span>
+</div>
+</div>
+<script>
+
+  $(".img_2").hide();
+
+  $(".bottom_information_area").mouseover(function () {
+    $(this).addClass("bottom_information_area_color");
+    $(this).siblings().removeClass("bottom_information_area_color");
+    $(this).find(".img_1").hide();
+    $(this).find(".img_2").show();
+  })
+
+  $(".bottom_information_area").mouseout(function () {
+    $(this).removeClass("bottom_information_area_color");
+    $(this).siblings().removeClass("bottom_information_area_color");
+    $(this).find(".img_2").hide();
+    $(this).find(".img_1").show();
+  })
+</script>
+</body>
+<!-- Mirrored from www.zkey.cc/News/details/616e0899cff39117c4398cbd by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Nov 2025 21:02:35 GMT -->
+</html>

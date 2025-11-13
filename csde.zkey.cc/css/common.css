@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    /* background: -webkit-linear-gradient(#1c1a25,#312a51); */
+    background-color: #262932;
+}
+::-webkit-scrollbar {
+    width:18px;
+    /*height:10px;*/
+}
+::-webkit-scrollbar-button    {
+    background-color:#262932;
+    height: 0;
+}
+::-webkit-scrollbar-track     {
+    background:#262932;
+}
+
+::-webkit-scrollbar-thumb{
+    background:rgb(30,33,40);
+    border-radius:4px;
+}
+.sssa::-webkit-scrollbar {
+    width:8px;
+    /*height:10px;*/
+}
+.sssa::-webkit-scrollbar-button    {
+    background-color:#262932;
+    height: 0;
+}
+.sssa::-webkit-scrollbar-track     {
+    background:#262932;
+}
+
+.sssa::-webkit-scrollbar-thumb{
+    background:rgb(30,33,40);
+    border-radius:4px;
+}
+.indexBodyList::-webkit-scrollbar {
+    width:8px;
+   
+}
+.indexBodyList::-webkit-scrollbar-button    {
+    
+    height: 0;
+}
+.indexBodyList::-webkit-scrollbar-track     {
+    background:#262932;
+}
+
+.indexBodyList::-webkit-scrollbar-thumb{
+    background:rgb(30,33,40);
+    border-radius:4px;
+}
+.block{
+    width: 5px;
+    height: 25px;
+    background-color: #00aced;
+    margin-left: 8px;
+}
+.showvar::-webkit-scrollbar {
+    width:10px;
+    /*height:10px;*/
+}
+.showvar::-webkit-scrollbar-button    {
+    background-color:#f1f1f1;
+}
+.showvar::-webkit-scrollbar-track     {
+    background:#f1f1f1;
+}
+
+.showvar::-webkit-scrollbar-thumb{
+    background:#d1d1d1;
+    border-radius:4px;
+}
+#main .page>.page1 .textList li .content::-webkit-scrollbar {
+    width:8px;
+    /*height:10px;*/
+}

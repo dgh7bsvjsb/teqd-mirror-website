@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html>
+<!-- Mirrored from www.zkey.cc/News/details/6170a78bb50be92a2b33c777 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Nov 2025 21:02:30 GMT -->
+<!-- Added by HTTrack --><meta content="text/html;charset=utf-8" http-equiv="content-type"/><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1,minmum-scale=1,maxmum-scale=1,user-scalable=no" name="viewport"/>
+<title>
+      中科易研：问卷数据清洗与分析的几点经验
+     (Verification Mirror)</title>
+<meta content="" name="keywords"/>
+<meta content="" name="description"/>
+<link href="../../images/favicon.ico" rel="SHORTCUT ICON"/>
+<link href="../../css/swiper-3.4.2.min.css" rel="stylesheet"/>
+<link href="../../css/index1.css" rel="stylesheet"/>
+<link href="../../css/homepage.css" rel="stylesheet"/>
+<link href="../../css/solve_govDepartment.css" rel="stylesheet"/>
+<link href="../../css/DataFederation.css" rel="stylesheet"/>
+<link href="../../css/animate.min.css" rel="stylesheet"/>
+<link href="../../css/layer.css" rel="stylesheet"/>
+<link href="../../css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .titleName {
+    width: 200px;
+    height: 52px;
+    line-height: 50px;
+    font-size: 22px;
+    text-align: center;
+    border-bottom: 3px solid #B53033;
+  }
+
+  .NewsContent {
+    width: 75%;
+    margin: 40px auto;
+  }
+
+  .XWContent {
+    margin-top: 40px;
+    min-height: 300px;
+  }
+</style>
+<body><div class_="mirror-notice" style="background: #f0f8ff; padding: 10px; border: 1px solid #ccc; margin: 10px; text-align: center;">This is a verification mirror for academic publication purposes. Original platform: https://teqd.zkey.cc/</div>
+<!--导航-->
+<!-- <script type="text/javascript" src="https://auth.zkey.cc/api/Login/GetCookie"></script> -->
+<script src="../../js/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="../../js/jquery.cookie.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../js/swiper-3.4.2.jquery.min.js"></script>
+<script src="../../js/layer.js"></script>
+<script src="../../js/play_hs.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<!-- 百度统计 -->
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?63e61c7e03547d3eaf038244ad81ad21";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+<style>
+  .header_2 a {
+    color: #fff;
+  }
+
+  /*
+html{
+filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+-webkit-filter: grayscale(1);
+}
+*/
+</style>
+<div class="header">
+<div class="header_center">
+<div style="width: 200px;position: relative;display: inline-block;height: 100px;float: left;">
+<img alt="" src="../../images/icon.png"/>
+</div>
+<div style="height: 100px;width: 100%;position: absolute">
+<ul class="nav_center">
+<li class="header_1"><a href="../../index.html" style="color: #fff">首页</a></li>
+<li class="header_2 solve_plan1" style="position: relative;z-index: 0">平台产品
+          <ul class="head-dropdown1">
+<li class="dataCj" style="font-size: 12px">
+<div><span>数据采集  </span><img alt="" src="../../images/leftJT.png" style="float: none;margin-top: -1px"/></div>
+<ul class="head-dropdown4">
+<li style="font-size: 12px"><a href="../../platform/index.html">通用网络问卷平台</a></li>
+<li class="wkf1" style="font-size: 12px">互联网大数据采集平台</li>
+</ul>
+</li>
+<li class="datagl" style="font-size: 12px">
+<div><span>数据管理  </span><img alt="" src="../../images/leftJT.png" style="float: none;margin-top: -1px"/></div>
+<ul class="head-dropdown3">
+<li style="font-size: 12px"><a href="../../../edata.zkey.cc/index.html" target="_blank">科研数据管理平台（机构版）</a></li>
+<li style="font-size: 12px"><a href="../../../project.zkey.cc/index.html" target="_blank">科研数据管理平台（项目版）</a></li>
+</ul>
+</li>
+<li style="font-size: 12px"><a href="../../../edata.zkey.cc/project/common.html" style="margin-right: 16px" target="_blank">数据检索</a></li>
+<li style="font-size: 12px"><a href="../../../edata.zkey.cc/page/detail/60ddd4ee3d5b353ffb294f4a.html" style="margin-right: 4px" target="_blank">数据可视化</a></li>
+<li class="wkf2" style="font-size: 12px"><span style="margin-right: 4px">报告自动化</span></li>
+<li class="otherTab" style="font-size: 12px">
+<div><span>其他产品  </span><img alt="" src="../../images/leftJT.png" style="float: none;margin-top: -1px"/></div>
+<ul class="head-dropdown2">
+<li style="font-size: 12px"><a href="../../../caucy.zkey.cc/index.html" target="_blank">高校学生创新创业服务平台 [案例]</a>
+</li>
+<li style="font-size: 12px"><a href="../../../fjedu.zkey.cc/index.html" target="_blank">基础教育质量检测服务平台 [案例]</a>
+</li>
+<li style="font-size: 12px"><a href="../../../shxs.zkey.cc/index.html" target="_blank">科研机构科研成果管理系统 [案例]</a></li>
+<li style="font-size: 12px"><a href="../../../cyfgdj.zkey.cc/index.html" target="_blank">非公党建信息管理系统 [案例]</a></li>
+<li style="font-size: 12px"><a href="http://rk.blzjd.cn/" target="_blank">辖区人口信息管理系统 [案例]</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="header_3 solve_plan" style="height: 70px;position: relative;z-index: 0"><a href="../../solution/education" style="color: #fff">解决方案</a>
+<ul class="head-dropdown">
+<li style="font-size: 12px"><a href="../../solution/education" style="color: #fff;font-size: 12px">教育机构</a></li>
+<li><a href="../../solution/government.html" style="color: #fff;font-size: 12px">政府部门</a></li>
+<li style="font-size: 12px"><a href="../../index.html#comprehensive" style="color: #fff;font-size: 12px">科研单位</a></li>
+</ul>
+</li>
+<li class="header_4 solve_plan2" style="height: 70px;position: relative;z-index: 0"><a href="../../case.html" style="color: #fff">成功案例</a>
+<ul class="head-dropdown5">
+<li style="font-size: 12px"><a href="../../case/index5e67.html?CGtype=1" style="color: #fff;font-size: 12px">平台部署</a></li>
+<li><a href="../../case/index8d41.html?CGtype=2" style="color: #fff;font-size: 12px">调查项目</a></li>
+<li><a href="../../case/index692d.html?CGtype=3" style="color: #fff;font-size: 12px">咨询服务</a></li>
+</ul>
+</li>
+<!--<li class="header_5">易研指数</li>-->
+<li class="header_6"><a href="../../league.html" style="color: #fff">数据联盟</a></li>
+<li class="header_7"><a href="../list/index.html" style="color: #fff">新闻资讯</a>
+</li>
+<li class="header_8 solve_plan4" style="height: 70px;position: relative;z-index: 0"><a href="../../about.html" style="color: #fff">关于我们</a>
+<ul class="head-dropdown7">
+<li style="font-size: 12px"><a href="../../about/index1749.html?UStype=1" style="color: #fff;font-size: 12px">易研简介</a></li>
+<li><a href="../../about/index4d2b.html?UStype=2" style="color: #fff;font-size: 12px">成长历程</a></li>
+<li><a href="../../about/indexea85.html?UStype=3" style="color: #fff;font-size: 12px">资质荣誉</a></li>
+<li><a href="../../about/index09e8.html?UStype=4" style="color: #fff;font-size: 12px">加入我们</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="rightArea">
+<!-- <div class="c1 Login">登录</div>
+            <div class="LoginUserName" style="color: #fff;margin-right: 10px;display: none"></div>
+            <div class="c1 loginOut">注册</div> -->
+</div>
+</div>
+</div>
+<div class="neirong" style=" margin-top: 150px">
+<div class="NewsContent">
+<div class="Theme" style="text-align: center;margin-bottom: 30px;font-size: 22px;font-weight: bold">
+          中科易研：问卷数据清洗与分析的几点经验
+        </div>
+<div style="height: 50px;margin-top: 30px;color: #aaaaaa;border-bottom: 1px solid #ccc;text-align: center;font-size: 14px">
+<div>
+<span class="ReleaseTime_toString">
+              2021-10-21  
+            </span>   
+            <span>作者：<span class="Author" style="margin-right: 15px;">
+</span></span>
+</div>
+</div>
+<div class="XWContent">
+<p style="text-align: center;"><img alt="" src="https://obs.cn-north-4.myhuaweicloud.com/publicbucket/base/public/ckeditor/6170a62fe4b096b566b54367.jpg" style="width: 450px; height: 300px;"/></p>
+<p style="text-align: center;"> </p>
+<p><span style="line-height:3;">问卷调查作为最常用的社会研究方法之一，广泛的应用到各个类型的用户调研项目中。经历了问卷设计这第一道关卡后，面对回收后的大量数据，你是否也有以下的困惑</span></p>
+<p><span style="line-height:3;">回收后的数据是真实的吗？</span></p>
+<p><span style="line-height:3;">用什么工具处理问卷数据最高效？</span></p>
+<p><span style="line-height:3;">如何分析和解读问卷数据？</span></p>
+<p><strong><span style="line-height:3;">一．工具：该用什么来处理数据？</span></strong></p>
+<p><span style="line-height:3;">其实进行基础的描述性统计与交叉分析时，Excel和Spss这两款工具都有相对应的功能可以实现，大家可以根据平时的使用习惯自行选择。</span></p>
+<p><span style="line-height:3;">在实际工作中，这两个工具常结合起来使用。Spss的优势在于，两个视图查看数据比较方便、可以撰写语法来实现数据批量处理；Excel的优势在于，图表的可视化更丰富、更改图表外观非常便捷。因此，通常先使用Spss来进行数据清洗和分析，再导出到Excel中对图表的格式进行编辑。</span></p>
+<p><strong><span style="line-height:3;">二．清洗：如何对数据进行清洗？</span></strong></p>
+<p><span style="line-height:3;">线上问卷投放成本低、回收时效高，但由于难以监控用户填答的过程，致使问卷中常隐藏着一些不真实的数据，因此，回收问卷后的第一步，就是给数据做清洗以保证数据尽可能的真实有效。数据清洗包含三个方面，其一，规范数据视图（主要针对Spss）；其二，清理无效样本。其三，对特殊题型进行处理。</span></p>
+<p><span style="line-height:3;">1.数据视图规范化</span></p>
+<p><span style="line-height:3;">数据视图规范化是一个经常被忽视的环节，虽然它不对数据结果产生直接的影响，但是前期对数据视图做好规范化处理有利于减少后续数据分析、语法撰写出现失误的概率，也就是说，它是一个微小、但却可以提升工作效率的步骤。那么，如何对Spss的数据视图进行规范化呢？</span></p>
+<p><span style="line-height:3;">由于Spss中的变量视图与数据视图相关联，因此只需对变量视图的11列逐一进行调整、规范化即可。具体参考步骤如下</span></p>
+<p><span style="line-height:3;">名称：将名称列与原始问卷中的编码进行一一对照，检查是否有误</span></p>
+<p><span style="line-height:3;">类型：将类型列与原始问卷中的题型进行一一对照，选择题需为数字、填空题需为字符串</span></p>
+<p><span style="line-height:3;">宽度：将同类题型变量取值所占有的宽度调成一致以方便后续查看</span></p>
+<p><span style="line-height:3;">小数：根据题型进行调整，选择题的小数需为零，填空题的小数依据题目具体分析</span></p>
+<p><span style="line-height:3;">标签：将标签调整成直观易懂的描述；将名称列合并到标签列中以便后续查看</span></p>
+<p><span style="line-height:3;">值：将值列与原始问卷中的选项进行比较，检查是否有误</span></p>
+<p><span style="line-height:3;">缺失：逻辑跳转题的“未选择”会被计为零值，不利于后续的交叉分析；可对照原始问卷中的逻辑跳转设置，将该跳转题零值剔除（对于缺失值的处理，因问卷系统不同而有差异，此处以京东limesurvey为例）</span></p>
+<p><span style="line-height:3;">列：将同类题型的数据视图中的列宽调成一致以方便后续查看</span></p>
+<p><span style="line-height:3;">对齐：将数字类型右对齐、字符串类型左对齐</span></p>
+<p><span style="line-height:3;">测量：将定类变量设置成名义；将定序变量设置成有序；将定距定比变量设置成标度</span></p>
+<p><span style="line-height:3;">角色：一般系统默认为为输入，代表自变量</span></p>
+<p style="text-align: center;"><span style="line-height:3;">变量视图规范化可参考此示意图</span></p>
+<p style="text-align: center;"><span style="line-height:3;"><img alt="" src="https://obs.cn-north-4.myhuaweicloud.com/publicbucket/base/public/ckeditor/6170a681e4b062f5190d1c4d.jpeg" style="width: 640px; height: 164px;"/></span></p>
+<p style="text-align: center;"> </p>
+<p><span style="line-height:3;">2.清理无效样本</span></p>
+<p><span style="line-height:3;">清理无效样本遵循两个原则，从整体到部分、从一维到二维。</span></p>
+<p><span style="line-height:3;">首先，对问卷样本整体进行处理。</span></p>
+<p><span style="line-height:3;">① 根据填答完整性处理</span></p>
+<p><span style="line-height:3;">首先需要剔除未完整填答必答题的样本，即未完整填答问卷的样本。其次，为尊重用户隐私，我们会将一些敏感问题设置为非必答题，这时可以根据项目需求来决定是否需要剔除非必答题未完整填答的样本</span></p>
+<p><span style="line-height:3;">② 根据提交时间处理</span></p>
+<p><span style="line-height:3;">提交问卷的时间同样重要，有时正式投放问卷前，调研员会对问卷进行测试填答，有时样本填答问卷的日期超出了计划日期，因此需要剔除问卷提交时间早于和晚于问卷投放时间的样本</span></p>
+<p><span style="line-height:3;">③ 根据填答时间处理</span></p>
+<p><span style="line-height:3;">填答问卷时长过短或过多的样本均被视为无效样本，因此我们需要剔除少于最低填答时间（一般情况下，填答每道问题需要5秒，因此最低填答时间即为5秒*题目数量）和填答时间过长（一般情况下，问卷填答时间不超过30分钟）的样本</span></p>
+<p><span style="line-height:3;">其次，对问卷各部分进行处理。</span></p>
+<p><span style="line-height:3;">通常情况下，问卷设计会分为三部分。</span></p>
+<p><span style="line-height:3;">甄别部分：此部分会设置一些题目来甄别参与问卷调查的用户是否为我们的目标样本</span></p>
+<p><span style="line-height:3;">主体部分：此部分会根据项目的研究内容测量用户行为、用户态度</span></p>
+<p><span style="line-height:3;">属性部分：此部分会获取用户的人口属性（人口属性（性别、年龄、婚姻、城市）、社会属性（学历、职位、个人月收入、家庭月收入）以便做用户画像</span></p>
+<p><span style="line-height:3;">① 甄别部分处理</span></p>
+<p><span style="line-height:3;">剔除不符合甄别条件的样本。根据项目需求，问卷中可能会设置一些甄别调研目标用户的题目，如拟对使用过某产品的用户进行问卷调查，那么在问卷设计时则会用一道甄别题来询问“您是否使用过该产品”，若该用户选择“否“，则需要剔除这类不符合甄别条件的样本</span></p>
+<p><span style="line-height:3;">② 主体部分处理</span></p>
+<p><span style="line-height:3;">剔除连续性回答样本。连续性回答有两种情况，其一，选择同一选项过多：如该问卷有30道题，但某样本选择A选项有25道题，则将该样本视为连续性回答样本，需剔除；其二，填答呈现某种规律性：如某样本在填答中呈现“A-B-A-B”或”A-B-C-D”等某种规律，则被视为规律性填答的样本，需剔除</span></p>
+<p><span style="line-height:3;">剔除不符合固定填答逻辑的样本。在问卷设计中，有一类题组前后两道题（几道题）有关联的逻辑，如选择前一道题A的人不能选择后一道题的B，此时则需要剔除互斥题矛盾的样本</span></p>
+<p><span style="line-height:3;">剔除未通过陷阱题的样本。为了确认用户是有在认真填答问卷，有时会在问卷主体部分穿插一道“常识题“，如”中国的首都是哪里“，若用户选择非北京的城市，则会把该样本剔除</span></p>
+<p><span style="line-height:3;">③ 属性部分处理</span></p>
+<p><span style="line-height:3;">各个属性题组的内部数据清理，剔除人口属性、社会属性、站内属性三个属性题组内部数据存在矛盾的样本。如人口属性内部（性别、年龄、婚姻、城市），年龄与婚姻可能存在矛盾，20岁以下的女子、22岁以下的男子婚姻状态不能为已婚；社会属性内部（学历、职业、个人月收入、家庭月收入），个人月收入不能大于家庭月收入</span></p>
+<p><span style="line-height:3;">各个属性题组间的数据清理，将人口属性、社会属性、站内属性进行两两比较，剔除题组间数据存在矛盾的样本。如人口属性的年龄与学历之间可能存在矛盾，小于18岁的群体一般情况下不会拥有本硕博学历</span></p>
+<p><span style="line-height:3;">④ 各个部分间处理</span></p>
+<p><span style="line-height:3;">将问卷甄别部分、主体部分、属性部分进行逐一比较，剔除各部分间数据存在矛盾的样本。比较原则，将题目数量较少的部分与题目数量较多的部分进行比较。每一部分逐一比较虽然需要花费一定的时间，但为了确保样本是真实有效的，这个步骤是必不可少的</span></p>
+<p><span style="line-height:3;">3.对特殊题型进行处理</span></p>
+<p><span style="line-height:3;">问卷中时有一些文本题，如选择题中的“其他，请注明“选项或填空题。</span></p>
+<p><span style="line-height:3;">在处理文本题时，有两种情况，其一，回码，即当文本题的填答内容可量化或与原始选项可合并时，需将文本题的填答内容转置成可计算的数值，并删除文本题的填答内容。如某选择题为“请问您使用过下列哪些网购平台“，即便选项中有”京东“，但用户没有注意到该选项，而是在”其他，请注明“选项中填写了”京东“，此时就需要对该样本的填答情况进行回码，将之纳入到京东选项下，并删除文本填答内容。</span></p>
+<p><span style="line-height:3;">其二，重新编码，若文本题的填答内容不可回码，需要进行重新编码，并记录到编码簿中。仍然以“请问您使用过下列哪些网购平台“这道题为例，若用户在”其他，请注明“中填写了未在既有选项中出现的答案，则需要对该答案进行重新编码，并做记录。</span></p>
+<p><strong><span style="line-height:3;">三.分析：如何对问卷数据进行基础分析？</span></strong></p>
+<p><span style="line-height:3;">1. 常用问卷数据分析与解读维度</span></p>
+<p><span style="line-height:3;">问卷数据分析时，最常使用的分析方法为频数分析、描述分析、交叉分析。</span></p>
+<p><span style="line-height:3;">① 频数分析</span></p>
+<p><span style="line-height:3;">总体频数</span></p>
+<p><span style="line-height:3;">拿到问卷数据后，首先可以将每道题各选项的频数按降序排列，从而对数据分布趋势有一个整体了解</span></p>
+<p><span style="line-height:3;">数据解读：了解用户总体的行为、态度偏好</span></p>
+<p><span style="line-height:3;">分组频数</span></p>
+<p><span style="line-height:3;">除观察各选项的总体分布趋势外，也可将具有相似特征的选项进行合并分组分析，从而获得更宏观维度上的数据解读。以商品关注要素题目为例，浏览商品时关注的这11个要素可按降序排列，我们可以发现，用户最关注品牌，其次为参数信息，对店铺的关注最弱。但有时，我们不需要这么细致的分析维度，此时可以把这11个要素分组为商品层面和平台层面，来观察用户更关注哪个层面，将各选项百分比加总后可以得出结论，浏览商品时，较平台层面，用户对商品层面更为关注。同时，还可以对每个维度内的选项进行降序排列，从中可以得知，商品层面中，用户对品牌的关注最强，对新品的关注最弱</span></p>
+<p><span style="line-height:3;">数据解读：了解不同维度上的用户行为、态度偏好</span></p>
+<p> </p>
+<p style="text-align: center;"><span style="line-height:3;"><img alt="" src="https://obs.cn-north-4.myhuaweicloud.com/publicbucket/base/public/ckeditor/6170a6e3e4b030e8d2e84f8f.jpeg" style="width: 640px; height: 267px;"/></span></p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"><span style="line-height:3;">频数分析可参考此示意图</span></p>
+<p><span style="line-height:3;">②描述性分析</span></p>
+<p><span style="line-height:3;">常用于计算数值型的单变量统计量，主要包括以下三种类型的统计量。</span></p>
+<p><span style="line-height:3;">描述集中趋势的统计量</span></p>
+<p><span style="line-height:3;">常用的统计量有均值、中位数、众数、百分位数</span></p>
+<p><span style="line-height:3;">描述离散程度的统计量</span></p>
+<p><span style="line-height:3;">常用的统计量有样本方差、样本标准差、均值标准差、极差、离散系数</span></p>
+<p><span style="line-height:3;">描述分布形态的统计量</span></p>
+<p><span style="line-height:3;">常用的统计量有偏度和峰度</span></p>
+<p><span style="line-height:3;">数据解读：了解用户行为、态度（数值型变量）的基本特征和整体分布形态，同时可为后续做更复杂的分析与建模做铺垫</span></p>
+<p><span style="line-height:3;">③交叉分析</span></p>
+<p><span style="line-height:3;">适用于对两个及两个以上变量之间的关系进行分析，从而得出更为立体的调研结论。</span></p>
+<p><span style="line-height:3;">用户属性、用户行为、用户态度做交叉</span></p>
+<p><span style="line-height:3;">如可以将用户属性进行拆分来观测不同用户属性的数据分布与总体的差异，关注显著高于和低于总体的数据。以商品关注要素题目为例，总体样本中71.6%的用户在浏览商品时关注品牌，其中81.4%男性关注品牌、61.8%的女性关注品牌，数据间有显著差异，则需要关注品牌在用户性别上的差异，并做出标记。当用户属性为定序变量时，可看行变量是否随着用户属性的升序或降序呈现出某种趋势，如随着年龄的递增，用户越关注商品品牌。需要注意的是，当行变量在用户属性上的数据差异较大时，应对照用户属性的样本量进行检验，若样本量少于30，数据差异的误差可能较大</span></p>
+<p><span style="line-height:3;">数据解读：了解用户属性、行为、态度间的关系</span></p>
+<p> </p>
+<p style="text-align: center;"><span style="line-height:3;"><img alt="" src="https://obs.cn-north-4.myhuaweicloud.com/publicbucket/base/public/ckeditor/6170a709e4b0484523ee5d22.jpeg" style="width: 640px; height: 194px;"/></span></p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"><span style="line-height:3;">交叉分析解读可参考此示意图</span></p>
+<p><span style="line-height:3;">除上述提到的基本统计外，还可以应用聚类分析、相关分析、回归分析等对问卷进行深入分析。</span></p>
+<p><span style="line-height:3;">2.数据格式规范化</span></p>
+<p><span style="line-height:3;">数据格式规范化有助于快速的查找数据，也能让合作项目的小伙伴清晰的了解到问卷数据的产出，提升工作效率。使用何种格式来规范数据没有固定的模板，这里可以提供一些参考。</span></p>
+<p><span style="line-height:3;">① 标记样本量</span></p>
+<p><span style="line-height:3;">这一步骤是必须且重要的，问卷中的每道问题总填答人数、每个选项的填答人数都需要逐一进行标注</span></p>
+<p><span style="line-height:3;">② 形成列联表</span></p>
+<p><span style="line-height:3;">一般情况下，将问卷题目与选项置入到行变量中，将样本属性（如细分人群）的变量置入到列变量中，以方便查看</span></p>
+<p><span style="line-height:3;">③ 根据题组拆分sheet</span></p>
+<p><span style="line-height:3;">将反映不同研究内容的题组数据置于Excel不同的sheet中，以便后续能够快速查找</span></p>
+<p> </p>
+<p style="text-align: center;"><span style="line-height:3;"><img alt="" src="https://obs.cn-north-4.myhuaweicloud.com/publicbucket/base/public/ckeditor/6170a731e4b012eabd3d39e1.jpeg" style="width: 640px; height: 75px;"/></span></p>
+<p style="text-align: center;"><span style="line-height:3;">数据格式规范化可参考此示意图</span></p>
+<p style="text-align: center;"> </p>
+<p><span style="line-height:3;">中科易研以十余年行业积累为基础，结合互联网大数据技术，秉承“数据、信息、知识、智慧”的方法论，坚持“用数据说话、用数据决策、用数据管理、用数据创新”的理念，以自主研发获得国家发明专利的易研问卷平台和易研大数据云平台为依托，专注于为教育科研机构、政府企事业单位提供基于数据采集、数据清洗、数据检索、数据管理、数据分析和可视化、数据资源整合等全流程数据服务，并为用户提供大数据云平台搭建服务。</span></p>
+<p><span style="line-height:3;">以上就是回收问卷后，从清洗到分析的一些经验，有需要的小伙伴们赶紧用起来吧！</span></p>
+</div>
+</div>
+</div>
+<div style="width: 75%;height: 100px;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;margin: 50px auto;color: #666666;font-size: 12px;display:flex;justify-content:space-between;align-items:center;line-height:30px">
+<div style="display: inline-block">
+<p>
+<span>上一条：</span>
+<span class="prevNews">
+<a href="6171f8f1b50be92a2b33d2d6.html">中科易研：问卷调查方法——数据收集的方法</a>
+</span>
+</p>
+<p>
+<span>下一条：</span>
+<span class="nextNews">
+<a href="6170a890d69212790447ea43.html">调查问卷设计的六个基础特性</a>
+</span>
+</p>
+</div>
+<a href="javascript:;" onclick="javascript:history.back(-1);" style="color: #666666">
+<div style="width: 80px;height: 30px;line-height: 30px;text-align: center;border: 1px solid #1f71ff;float: right;cursor: pointer;border-radius: 3px;background-color: #1f71ff;
+    color: #fff;">
+<i class="fa fa-long-arrow-left" style="margin-right: 5px"></i>返回
+        </div>
+</a>
+</div>
+<div class="solve_bottom">
+<div class="bottom_information">
+<div style="width: 100%;height: 120px;border-bottom: 1px solid #ccc;">
+<div class="bottom_information_area suspension_1" style="height: 65px;margin-top: 55px">
+<img alt="" class="img_1" src="../../images/weizhi_1.png" style="top: 25px"/>
+<img alt="" class="img_2" src="../../images/weizhi.png" style="display: none"/>
+</div>
+<div class="bottom_information_area suspension_2" style="height: 65px;margin-top: 55px">
+<img alt="" class="img_1" src="../../images/weixin.png" style="top: 25px"/>
+<img alt="" class="img_2" src="../../images/liaotian.png" style="display: none"/>
+</div>
+<div class="bottom_information_area suspension_3" style="height: 65px;margin-top: 55px">
+<img alt="" class="img_1" src="../../images/weibiaoti-.png" style="top: 25px"/>
+<img alt="" class="img_2" src="../../images/dianhua.png" style="display: none"/>
+</div>
+<div class="bottom_information_area suspension_4" style="height: 65px;margin-top: 55px">
+<img alt="" class="img_1" src="../../images/xinfeng_1.png" style="top: 25px"/>
+<img alt="" class="img_2" src="../../images/xin.png" style="display: none"/>
+</div>
+</div>
+<div style="margin-top: 25px;color: #fff;font-size: 14px">
+<span>语言</span><span style="margin-left: 70px">简体中文</span>
+</div>
+<div style="margin-top: 25px;color: #fff;font-size: 14px">
+<span>新闻与公告</span><span style="margin-left: 29px"><a href="../../News.html" style="color: #fff">新闻与公告</a></span>
+</div>
+<div style="margin-top: 25px;color: #fff;font-size: 14px">
+<span>快速链接</span>
+<span style="margin-left: 43px">
+<a href="http://csqr.cass.cn/" style="color: #fff" target="_blank">中国社科院社会质量基础数据库</a>
+</span>
+<span style="margin-left: 43px">
+<a href="../../../cpdrc.zkey.cc/index.html" style="color: #fff" target="_blank">全国人口数据综合集成应用平台</a>
+</span>
+<span style="margin-left: 43px">
+<a href="https://edudata.pku.edu.cn/" style="color: #fff" target="_blank">北京大学江山教育大数据平台</a>
+</span>
+<span style="margin-left: 43px">
+<a href="https://medudata.bjmu.edu.cn/" style="color: #fff" target="_blank">全国医学教育发展中心信息与数据平台</a>
+</span>
+<!-- <span style="margin-left: 43px">
+        <a style="color: #fff"
+          target=_blank href="https://cgss.zkey.cc/">中国人民大学“中国综合社会调查数据管理平台”</a>
+      </span> -->
+</div>
+</div>
+<div class="bottom_content">
+<span>联系方式：010-5603-6481     </span>
+<span>地址：北京市朝阳区广渠路66号院8号楼百环青创大厦三层303室    中科易研（北京）科技有限公司</span>
+<span>     <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">京ICP备15051429号-1</a></span>
+</div>
+</div>
+<script>
+
+  $(".img_2").hide();
+
+  $(".bottom_information_area").mouseover(function () {
+    $(this).addClass("bottom_information_area_color");
+    $(this).siblings().removeClass("bottom_information_area_color");
+    $(this).find(".img_1").hide();
+    $(this).find(".img_2").show();
+  })
+
+  $(".bottom_information_area").mouseout(function () {
+    $(this).removeClass("bottom_information_area_color");
+    $(this).siblings().removeClass("bottom_information_area_color");
+    $(this).find(".img_2").hide();
+    $(this).find(".img_1").show();
+  })
+</script>
+</body>
+<!-- Mirrored from www.zkey.cc/News/details/6170a78bb50be92a2b33c777 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Nov 2025 21:02:31 GMT -->
+</html>

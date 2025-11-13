@@ -1,0 +1,74 @@
+
+.PlanIntroduce{
+    width: 100%;
+    height: 384px;
+    text-align: center;
+}
+
+
+.serviceContent1{
+    width: 100%;
+    height: 762px;
+    background: #e9f1f6;
+}
+
+
+.ServiceProcess1{
+    width: 100%;
+    height: 650px;
+}
+
+.CustomerValue{
+    width: 100%;
+    text-align: center;
+    background: #e9f1f6;
+}
+
+
+.SuccessfulCases1{
+    width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.partner_center{
+    width: 1200px;
+    height:inherit;
+    margin: 60px auto;
+    /*height: inherit;*/
+
+}
+
+
+.banner_img{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.logo_table1_div_img{
+    width:100%;
+    height: 280px;
+    box-sizing: border-box;
+}
+
+
+.logo_table1_div img{
+    margin-top: 20px;
+}
+
+
+.logo_table1_text{
+    width: 100%;
+    height: 50px;
+    color: #444444;
+    line-height: 25px;
+}
+
+.select{
+    color: rgba(255,255,255,0.8);
+    background:linear-gradient(45deg, #3a59f0 10%, #9871fa 60%);
+}

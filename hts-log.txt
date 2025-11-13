@@ -1,0 +1,419 @@
+HTTrack3.49-2 launched on Thu, 13 Nov 2025 00:29:02 at https://teqd.zkey.cc/ +https://teqd.zkey.cc/* -https://teqd.zkey.cc/*/login* -https://teqd.zkey.cc/*/data/* -https://teqd.zkey.cc/*/api/* -https://teqd.zkey.cc/*/admin/* -https://teqd.zkey.cc/*/user/* -https://teqd.zkey.cc/*/download/* -https://teqd.zkey.cc/*/auth* -https://teqd.zkey.cc/*/session*
+(httrack https://teqd.zkey.cc/ -O "/Users/yesmola/Documents/2025 Paper /Machine Learning/1118Revised/Mirror/output/teqd_mirror" -d -%c1 -c2 -%k -T30 -R3 -A51200 -%! -F "Mozilla/5.0 (Research Mirror Tool)" +https://teqd.zkey.cc/* -https://teqd.zkey.cc/*/login* -https://teqd.zkey.cc/*/data/* -https://teqd.zkey.cc/*/api/* -https://teqd.zkey.cc/*/admin/* -https://teqd.zkey.cc/*/user/* -https://teqd.zkey.cc/*/download/* -https://teqd.zkey.cc/*/auth* -https://teqd.zkey.cc/*/session* )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:29:02	Warning: 	* security warning: !!! BYPASSING SECURITY LIMITS - MONITOR THIS SESSION WITH EXTREME CARE !!!
+00:29:48	Warning: 	Retry after error -2 (Receive Time Out) at link https://teqd.zkey.cc/ (from primary/primary)
+00:29:51	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://teqd.zkey.cc/ (from primary/primary)
+00:35:19	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://cdn.zkey.cc/esurvey/bootstrap-slider/bootstrap-slider.min.css (from https://teqd.zkey.cc/)
+00:35:19	Warning: 	Retry after error -4 (No data (connection closed)) at link teqd.zkey.cc/js/jquery-ui-1.13.2/jquery-ui.min.css (from https://teqd.zkey.cc/)
+00:35:25	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/robots.txt (from https://teqd.zkey.cc/)
+00:39:50	Warning: 	Moved Permanently for teqd.zkey.cc/js/jquery-ui-1.13.2/jquery-ui.min.css
+00:39:50	Warning: 	File has moved from teqd.zkey.cc/js/jquery-ui-1.13.2/jquery-ui.min.css to https://teqd.zkey.cc:443/js/jquery-ui-1.13.2/jquery-ui.min.css
+00:39:50	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://www.zkey.cc/css/swiper-3.4.2.min.css (from https://www.zkey.cc/)
+00:39:53	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.zkey.cc/css/index1.css (from https://www.zkey.cc/)
+00:40:15	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://www.zkey.cc/css/homepage.css (from https://www.zkey.cc/)
+00:43:41	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://edata.zkey.cc/ (from https://www.zkey.cc/)
+00:43:42	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://project.zkey.cc/robots.txt (from https://www.zkey.cc/)
+00:43:42	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://project.zkey.cc/ (from https://www.zkey.cc/)
+00:54:11	Error: 	"No data (connection closed)" (-4) after 3 retries at link caucy.zkey.cc/robots.txt (from https://www.zkey.cc/)
+00:54:11	Warning: 	Retry after error -4 (No data (connection closed)) at link caucy.zkey.cc/ (from https://www.zkey.cc/)
+00:54:12	Error: 	"No data (connection closed)" (-4) after 3 retries at link fjedu.zkey.cc/robots.txt (from https://www.zkey.cc/)
+00:54:12	Warning: 	Retry after error -4 (No data (connection closed)) at link fjedu.zkey.cc/ (from https://www.zkey.cc/)
+00:54:13	Warning: 	Moved Permanently for shxs.zkey.cc/robots.txt
+00:54:13	Warning: 	Redirected link is identical because of 'URL Hack' option: shxs.zkey.cc/robots.txt and https://shxs.zkey.cc/robots.txt
+00:54:13	Warning: 	Warning moved treated for shxs.zkey.cc/robots.txt (real one is https://shxs.zkey.cc/robots.txt)
+00:54:13	Warning: 	Moved Permanently for shxs.zkey.cc/
+00:54:13	Warning: 	Redirected link is identical because of 'URL Hack' option: shxs.zkey.cc/ and https://shxs.zkey.cc/
+00:54:13	Warning: 	File has moved from shxs.zkey.cc/ to https://shxs.zkey.cc/
+00:54:14	Error: 	"No data (connection closed)" (-4) after 3 retries at link cyfgdj.zkey.cc/robots.txt (from https://www.zkey.cc/)
+00:54:14	Warning: 	Retry after error -4 (No data (connection closed)) at link cyfgdj.zkey.cc/ (from https://www.zkey.cc/)
+00:54:14	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://www.zkey.cc/solution/education (from https://www.zkey.cc/)
+01:02:41	Warning: 	Unexpected socket error during pre-loop
+01:03:01	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/News (from https://www.zkey.cc/)
+01:10:27	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/loading-1.gif (from https://www.zkey.cc/css/layer.css)
+01:10:27	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/icon.png (from https://www.zkey.cc/css/layer.css)
+01:11:02	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/loading-0.gif (from https://www.zkey.cc/css/layer.css)
+01:11:03	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/loading-2.gif (from https://www.zkey.cc/css/layer.css)
+01:28:27	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/icon-ext.png (from https://www.zkey.cc/css/layer.css)
+01:28:28	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.eot (from https://www.zkey.cc/css/bootstrap.min.css)
+01:28:57	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.eot? (from https://www.zkey.cc/css/bootstrap.min.css)
+01:28:58	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 (from https://www.zkey.cc/css/bootstrap.min.css)
+01:29:53	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.woff (from https://www.zkey.cc/css/bootstrap.min.css)
+01:29:53	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.ttf (from https://www.zkey.cc/css/bootstrap.min.css)
+01:30:33	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.svg (from https://www.zkey.cc/css/bootstrap.min.css)
+01:30:34	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.zkey.cc/images/index_top@1200.png (from https://www.zkey.cc/platform/)
+01:30:37	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/platform/images/left.png (from https://www.zkey.cc/platform/)
+01:30:37	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/platform/images/right.png (from https://www.zkey.cc/platform/)
+01:43:38	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.zkey.cc/images/p14.png (from https://www.zkey.cc/platform/)
+01:43:42	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.zkey.cc/images/p15.png (from https://www.zkey.cc/platform/)
+02:00:08	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://www.zkey.cc/images/p16.png (from https://www.zkey.cc/platform/)
+02:00:11	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://www.zkey.cc/images/p17.png (from https://www.zkey.cc/platform/)
+02:00:13	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://www.zkey.cc/images/p19.png (from https://www.zkey.cc/platform/)
+02:00:19	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.zkey.cc/images/p20.png (from https://www.zkey.cc/platform/)
+02:00:41	Warning: 	Retry after error -4 (No data (connection closed)) at link https://edata.zkey.cc/ (from https://www.zkey.cc/)
+02:08:54	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://project.zkey.cc/ (from https://www.zkey.cc/)
+02:08:54	Warning: 	Retry after error -4 (No data (connection closed)) at link https://oss.zkey.cc/base/user/60f254de417eb92cc7748367/pub/65fa33bd4af68da99420a4fb.png (from https://edata.zkey.cc/project/common)
+02:08:54	Warning: 	Retry after error -4 (No data (connection closed)) at link edata.zkey.cc/_nuxt/1103d12.js (from https://edata.zkey.cc/page/detail/60ddd4ee3d5b353ffb294f4a)
+02:08:55	Warning: 	Retry after error -4 (No data (connection closed)) at link caucy.zkey.cc/ (from https://www.zkey.cc/)
+02:08:56	Warning: 	Retry after error -4 (No data (connection closed)) at link fjedu.zkey.cc/ (from https://www.zkey.cc/)
+02:08:57	Warning: 	Retry after error -4 (No data (connection closed)) at link cyfgdj.zkey.cc/ (from https://www.zkey.cc/)
+02:09:09	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://tshdata.zkey.cc/robots.txt (from https://www.zkey.cc/case)
+02:09:09	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://tshdata.zkey.cc/ (from https://www.zkey.cc/case)
+03:43:01	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://casmdata.zkey.cc/robots.txt (from https://www.zkey.cc/case)
+03:43:01	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://casmdata.zkey.cc/ (from https://www.zkey.cc/case)
+03:44:40	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://njtu_alumni.zkey.cc/ (from https://www.zkey.cc/case)
+03:45:01	Warning: 	Retry after error 502 (Bad Gateway) at link https://njtuxq.zkey.cc/ (from https://www.zkey.cc/case)
+03:45:04	Warning: 	Retry after error -4 (Incorrect length (120012 Bytes, 163385 expected)) at link https://ichem.zkey.cc/ (from https://www.zkey.cc/case)
+03:45:05	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://csudata.zkey.cc/robots.txt (from https://www.zkey.cc/case)
+03:45:14	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://csudata.zkey.cc/ (from https://www.zkey.cc/case)
+03:45:20	Warning: 	Retry after error -4 (Interrupted transfer) at link https://buctstudent.zkey.cc/ (from https://www.zkey.cc/case)
+03:45:20	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://ceeqda.zkey.cc/robots.txt (from https://www.zkey.cc/case)
+03:45:24	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://ceeqda.zkey.cc/ (from https://www.zkey.cc/case)
+03:45:24	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://career-cau.zkey.cc/robots.txt (from https://www.zkey.cc/case)
+03:45:25	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://career-cau.zkey.cc/ (from https://www.zkey.cc/case)
+03:45:25	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://bysdc.zkey.cc/robots.txt (from https://www.zkey.cc/case)
+03:45:26	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://bysdc.zkey.cc/ (from https://www.zkey.cc/case)
+03:45:34	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://cesdata.zkey.cc/ (from https://www.zkey.cc/case)
+03:55:12	Warning: 	Moved Permanently for https://cscr.zkey.cc/robots.txt
+03:55:12	Warning: 	File has moved from https://cscr.zkey.cc/robots.txt to http://cscr.cass.cn/robots.txt
+03:55:12	Warning: 	Moved Permanently for https://cscr.zkey.cc/
+03:55:12	Warning: 	File has moved from https://cscr.zkey.cc/ to http://cscr.cass.cn/
+03:59:56	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://zjw.zkey.cc/robots.txt (from https://www.zkey.cc/case)
+03:59:56	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://zjw.zkey.cc/ (from https://www.zkey.cc/case)
+03:59:58	Warning: 	Retry after error 502 (Bad Gateway) at link https://cyjslg.zkey.cc/ (from https://www.zkey.cc/case)
+04:04:51	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://iehs.zkey.cc/robots.txt (from https://www.zkey.cc/case)
+04:04:51	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://iehs.zkey.cc/ (from https://www.zkey.cc/case)
+04:04:54	Warning: 	Retry after error 502 (Bad Gateway) at link https://dcrcgh.zkey.cc/ (from https://www.zkey.cc/case)
+04:04:57	Warning: 	Retry after error -4 (Interrupted transfer) at link https://bysdata.zkey.cc/ (from https://www.zkey.cc/case)
+04:04:58	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://tjbys.zkey.cc/robots.txt (from https://www.zkey.cc/case)
+04:05:08	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://tjbys.zkey.cc/ (from https://www.zkey.cc/case)
+04:10:08	Error: 	"No data (connection closed)" (-4) after 3 retries at link hdxa.zkey.cc/robots.txt (from https://www.zkey.cc/case)
+04:10:08	Warning: 	Retry after error -4 (No data (connection closed)) at link hdxa.zkey.cc/ (from https://www.zkey.cc/case)
+04:10:09	Error: 	"No data (connection closed)" (-4) after 3 retries at link sjsjsgl.zkey.cc/robots.txt (from https://www.zkey.cc/case)
+04:10:09	Warning: 	Retry after error -4 (No data (connection closed)) at link sjsjsgl.zkey.cc/ (from https://www.zkey.cc/case)
+04:10:25	Warning: 	Retry after error 502 (Bad Gateway) at link https://cysy.zkey.cc/ (from https://www.zkey.cc/case)
+04:10:52	Warning: 	Retry after error -2 (Receive Time Out) at link https://bjie.zkey.cc/ (from https://www.zkey.cc/case)
+04:10:52	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://gdjydsj.zkey.cc/robots.txt (from https://www.zkey.cc/case)
+04:10:52	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://gdjydsj.zkey.cc/ (from https://www.zkey.cc/case)
+04:10:53	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.zkey.cc/images/cg1.png (from https://www.zkey.cc/case)
+04:11:00	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://www.zkey.cc/images/cg3.png (from https://www.zkey.cc/case)
+04:11:04	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://www.zkey.cc/images/cg11.png (from https://www.zkey.cc/case)
+04:11:35	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.zkey.cc/images/cg13.png (from https://www.zkey.cc/case)
+04:11:38	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.zkey.cc/images/cg15.png (from https://www.zkey.cc/case)
+04:11:39	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://bysddata.zkey.cc/robots.txt (from https://www.zkey.cc/case)
+04:11:45	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://bysddata.zkey.cc/ (from https://www.zkey.cc/case)
+04:11:45	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://baicun2.zkey.cc/robots.txt (from https://www.zkey.cc/case)
+04:11:46	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://baicun2.zkey.cc/ (from https://www.zkey.cc/case)
+04:11:52	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.zkey.cc/images/xwxq.png (from https://www.zkey.cc/News/list/)
+04:11:53	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.zkey.cc/images/xwright.png (from https://www.zkey.cc/News/list/)
+04:11:56	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.zkey.cc/images/hangyezixun.png (from https://www.zkey.cc/News/list/)
+04:12:35	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.zkey.cc/js/layui/layui.js (from https://www.zkey.cc/News/list/)
+04:12:35	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.zkey.cc/images/gywmBanner.png (from https://www.zkey.cc/about)
+04:12:38	Warning: 	Retry after error -4 (Receive Error) at link https://oss.zkey.cc/base/user/624fac5b7f859d6db9e7508a/pub/643fb9cbe4b0da0c0e672751.png (from https://www.zkey.cc/News/list/614562237ce9060e1388cfdd)
+04:12:38	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.zkey.cc/css/font-awesome.min.css (from https://www.zkey.cc/News/details/643fba390c9baf78f2535789)
+04:13:15	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/News (from https://www.zkey.cc/)
+04:13:22	Warning: 	Retry after error -4 (No data (connection closed)) at link cpdrc.zkey.cc/_nuxt/6bac528.js (from https://cpdrc.zkey.cc/)
+04:13:22	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://cpdrc.zkey.cc/_nuxt/a54efa7.js (from https://cpdrc.zkey.cc/)
+04:13:23	Warning: 	Retry after error -4 (No data (connection closed)) at link https://cpdrc.zkey.cc/_nuxt/036038c.js (from https://cpdrc.zkey.cc/)
+04:13:25	Error: 	"Not Found" (404) at link https://cpdrc.zkey.cc/https: (from https://cpdrc.zkey.cc/)
+04:13:25	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/images/bg1.jpg (from https://www.zkey.cc/css/index1.css)
+04:13:25	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/images/bdBlue.png (from https://www.zkey.cc/css/index1.css)
+04:13:27	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/images/bg_about.png (from https://www.zkey.cc/css/index1.css)
+04:14:00	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/images/BDXM.png (from https://www.zkey.cc/css/index1.css)
+04:14:04	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/loading-1.gif (from https://www.zkey.cc/css/layer.css)
+04:14:36	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/icon.png (from https://www.zkey.cc/css/layer.css)
+04:14:38	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/loading-0.gif (from https://www.zkey.cc/css/layer.css)
+04:15:10	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/loading-2.gif (from https://www.zkey.cc/css/layer.css)
+04:15:14	Warning: 	Retry after error -2 (Connect Time Out) at link https://www.zkey.cc/css/icon-ext.png (from https://www.zkey.cc/css/layer.css)
+04:15:45	Warning: 	Retry after error -2 (Connect Time Out) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.eot (from https://www.zkey.cc/css/bootstrap.min.css)
+04:15:49	Warning: 	Retry after error -2 (Connect Time Out) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.eot? (from https://www.zkey.cc/css/bootstrap.min.css)
+04:16:20	Warning: 	Retry after error -2 (Connect Time Out) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 (from https://www.zkey.cc/css/bootstrap.min.css)
+04:16:23	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.woff (from https://www.zkey.cc/css/bootstrap.min.css)
+04:16:54	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.ttf (from https://www.zkey.cc/css/bootstrap.min.css)
+04:16:58	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.svg (from https://www.zkey.cc/css/bootstrap.min.css)
+04:17:29	Warning: 	Retry after error 500 () at link https://www.zkey.cc/platform/images/left.png (from https://www.zkey.cc/platform/)
+04:17:29	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/platform/images/right.png (from https://www.zkey.cc/platform/)
+04:17:32	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.zkey.cc/images/p16.png (from https://www.zkey.cc/platform/)
+04:18:04	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.zkey.cc/images/p17.png (from https://www.zkey.cc/platform/)
+04:18:13	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.zkey.cc/images/p19.png (from https://www.zkey.cc/platform/)
+04:18:45	Warning: 	Retry after error -4 (Interrupted transfer) at link https://edata.zkey.cc/ (from https://www.zkey.cc/)
+04:18:53	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://project.zkey.cc/ (from https://www.zkey.cc/)
+04:18:54	Warning: 	Moved Permanently for edata.zkey.cc/_nuxt/1103d12.js
+04:18:54	Warning: 	File has moved from edata.zkey.cc/_nuxt/1103d12.js to https://edata.zkey.cc:443/_nuxt/1103d12.js
+04:18:54	Warning: 	Retry after error -4 (No data (connection closed)) at link caucy.zkey.cc/ (from https://www.zkey.cc/)
+04:18:55	Warning: 	Retry after error -4 (No data (connection closed)) at link fjedu.zkey.cc/ (from https://www.zkey.cc/)
+04:18:56	Warning: 	Retry after error -4 (No data (connection closed)) at link cyfgdj.zkey.cc/ (from https://www.zkey.cc/)
+04:18:57	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://tshdata.zkey.cc/ (from https://www.zkey.cc/case)
+04:18:57	Warning: 	Retry after error -2 (Receive Time Out) at link nesc.zkey.cc/font/svg-iconfont.js (from https://nesc.zkey.cc/)
+04:18:58	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/9b95297.js (from https://nesc.zkey.cc/)
+04:18:59	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/0619d9a.js (from https://nesc.zkey.cc/)
+04:19:00	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/991d0ed.js (from https://nesc.zkey.cc/)
+04:19:01	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/97be217.js (from https://nesc.zkey.cc/)
+04:19:02	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/251a49b.js (from https://nesc.zkey.cc/)
+04:19:02	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/f9835ae.js (from https://nesc.zkey.cc/)
+04:19:03	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/6cf10c8.js (from https://nesc.zkey.cc/)
+04:19:04	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/4e402e5.js (from https://nesc.zkey.cc/)
+04:19:05	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/1dd1883.js (from https://nesc.zkey.cc/)
+04:19:05	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/2fdb9c8.js (from https://nesc.zkey.cc/)
+04:19:06	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/f4386dc.js (from https://nesc.zkey.cc/)
+04:19:06	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/0b01296.js (from https://nesc.zkey.cc/)
+04:19:07	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/5dcd975.js (from https://nesc.zkey.cc/)
+04:19:08	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/8852883.js (from https://nesc.zkey.cc/)
+04:19:08	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/d6a6314.js (from https://nesc.zkey.cc/)
+04:19:09	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/6bac528.js (from https://nesc.zkey.cc/)
+04:19:09	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/0a1c18c.js (from https://nesc.zkey.cc/)
+04:19:10	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/b921d0e.js (from https://nesc.zkey.cc/)
+04:19:10	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/4ad42db.js (from https://nesc.zkey.cc/)
+04:19:11	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/a25f59d.js (from https://nesc.zkey.cc/)
+04:19:11	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/812ebf0.js (from https://nesc.zkey.cc/)
+04:19:12	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/8fe10d6.js (from https://nesc.zkey.cc/)
+04:19:12	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/da2b46f.js (from https://nesc.zkey.cc/)
+04:19:13	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/49cc41b.js (from https://nesc.zkey.cc/)
+04:19:13	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/9952fd3.js (from https://nesc.zkey.cc/)
+04:19:14	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/cab8c61.js (from https://nesc.zkey.cc/)
+04:19:14	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/b240493.js (from https://nesc.zkey.cc/)
+04:19:15	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/995b742.js (from https://nesc.zkey.cc/)
+04:19:15	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/bd10e14.js (from https://nesc.zkey.cc/)
+04:19:16	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/bf702a9.js (from https://nesc.zkey.cc/)
+04:19:16	Warning: 	Retry after error -4 (No data (connection closed)) at link nesc.zkey.cc/_nuxt/f8a15f9.js (from https://nesc.zkey.cc/)
+04:19:17	Warning: 	Retry after error -4 (No data (connection closed)) at link cderc.zkey.cc/images/icon/premium-text.png (from https://cderc.zkey.cc/)
+04:19:17	Warning: 	Retry after error -4 (No data (connection closed)) at link cderc.zkey.cc/images/icon/premium-text1.png (from https://cderc.zkey.cc/)
+04:19:18	Warning: 	Moved Permanently for cderc.zkey.cc/robots.txt
+04:19:18	Warning: 	File has moved from cderc.zkey.cc/robots.txt to https://cderc.zkey.cc:443/robots.txt
+04:19:18	Warning: 	Retry after error -4 (No data (connection closed)) at link cderc.zkey.cc/_nuxt/fonts/iconfont.bb023c9.woff2 (from https://cderc.zkey.cc/)
+04:19:19	Warning: 	Retry after error -4 (No data (connection closed)) at link cderc.zkey.cc/_nuxt/fonts/iconfont.afe4220.woff (from https://cderc.zkey.cc/)
+04:19:19	Warning: 	Retry after error -4 (No data (connection closed)) at link cderc.zkey.cc/_nuxt/fonts/iconfont.ef2ef5f.ttf (from https://cderc.zkey.cc/)
+04:19:20	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://oss.zkey.cc/base/user/61dd53690962b01d693fa0dc/pub/625fda3ee4b089cd1cd1e48c.png (from https://cderc.zkey.cc/)
+04:19:20	Warning: 	Retry after error -2 (Receive Time Out) at link cderc.zkey.cc/_nuxt/d127343.js (from https://cderc.zkey.cc/)
+04:19:21	Warning: 	Retry after error -2 (Receive Time Out) at link cderc.zkey.cc/_nuxt/8b3f6e3.js (from https://cderc.zkey.cc/)
+04:19:22	Warning: 	Retry after error -2 (Receive Time Out) at link cderc.zkey.cc/_nuxt/991d0ed.js (from https://cderc.zkey.cc/)
+04:19:23	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://casmdata.zkey.cc/ (from https://www.zkey.cc/case)
+04:19:27	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://users.zkey.cc/robots.txt (from https://csde.zkey.cc/)
+04:19:27	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://users.zkey.cc/api/Login/GetCookie (from https://csde.zkey.cc/)
+04:19:27	Warning: 	Retry after error -4 (No data (connection closed)) at link https://csde.zkey.cc/include/header.html (from https://csde.zkey.cc/)
+04:19:28	Warning: 	Retry after error 502 (Bad Gateway) at link https://njtu_alumni.zkey.cc/ (from https://www.zkey.cc/case)
+04:19:28	Warning: 	Retry after error 502 (Bad Gateway) at link https://njtuxq.zkey.cc/ (from https://www.zkey.cc/case)
+04:24:31	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://csudata.zkey.cc/ (from https://www.zkey.cc/case)
+04:29:20	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://ceeqda.zkey.cc/ (from https://www.zkey.cc/case)
+04:29:20	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://career-cau.zkey.cc/ (from https://www.zkey.cc/case)
+04:29:20	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://bysdc.zkey.cc/ (from https://www.zkey.cc/case)
+04:34:07	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://iehs.zkey.cc/include/iehs.zkey.cc/images/point.png (from https://iice.zkey.cc/)
+04:34:07	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://iehs.zkey.cc/include/iehs.zkey.cc/images/searchBG.png (from https://iice.zkey.cc/)
+04:34:07	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://iehs.zkey.cc/include/iehs.zkey.cc/images/FindingsBG.png (from https://iice.zkey.cc/)
+04:34:07	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://zjw.zkey.cc/ (from https://www.zkey.cc/case)
+04:34:08	Warning: 	Retry after error 502 (Bad Gateway) at link https://cyjslg.zkey.cc/ (from https://www.zkey.cc/case)
+04:34:08	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://iehs.zkey.cc/ (from https://www.zkey.cc/case)
+04:34:08	Warning: 	Retry after error 502 (Bad Gateway) at link https://dcrcgh.zkey.cc/ (from https://www.zkey.cc/case)
+04:39:24	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://tjbys.zkey.cc/ (from https://www.zkey.cc/case)
+04:39:24	Warning: 	Retry after error -4 (No data (connection closed)) at link hdxa.zkey.cc/ (from https://www.zkey.cc/case)
+04:39:25	Warning: 	Retry after error -4 (No data (connection closed)) at link sjsjsgl.zkey.cc/ (from https://www.zkey.cc/case)
+04:39:58	Warning: 	Retry after error 502 (Bad Gateway) at link https://cysy.zkey.cc/ (from https://www.zkey.cc/case)
+04:45:08	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://gdjydsj.zkey.cc/ (from https://www.zkey.cc/case)
+04:45:08	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://bysddata.zkey.cc/ (from https://www.zkey.cc/case)
+04:45:08	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://baicun2.zkey.cc/ (from https://www.zkey.cc/case)
+04:45:20	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/News (from https://www.zkey.cc/)
+04:45:21	Warning: 	Moved Permanently for cpdrc.zkey.cc/_nuxt/6bac528.js
+04:45:21	Warning: 	Redirected link is identical because of 'URL Hack' option: cpdrc.zkey.cc/_nuxt/6bac528.js and https://cpdrc.zkey.cc/_nuxt/6bac528.js
+04:45:21	Warning: 	Warning moved treated for cpdrc.zkey.cc/_nuxt/6bac528.js (real one is https://cpdrc.zkey.cc/_nuxt/6bac528.js)
+04:45:21	Warning: 	Retry after error 500 () at link https://www.zkey.cc/images/bg1.jpg (from https://www.zkey.cc/css/index1.css)
+04:45:21	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/images/bdBlue.png (from https://www.zkey.cc/css/index1.css)
+04:45:54	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/images/bg_about.png (from https://www.zkey.cc/css/index1.css)
+04:45:55	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/images/BDXM.png (from https://www.zkey.cc/css/index1.css)
+04:46:29	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/loading-1.gif (from https://www.zkey.cc/css/layer.css)
+04:46:30	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/icon.png (from https://www.zkey.cc/css/layer.css)
+04:47:04	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/loading-0.gif (from https://www.zkey.cc/css/layer.css)
+04:47:05	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/loading-2.gif (from https://www.zkey.cc/css/layer.css)
+04:47:39	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/icon-ext.png (from https://www.zkey.cc/css/layer.css)
+04:47:40	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.eot (from https://www.zkey.cc/css/bootstrap.min.css)
+04:48:14	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.eot? (from https://www.zkey.cc/css/bootstrap.min.css)
+04:48:15	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 (from https://www.zkey.cc/css/bootstrap.min.css)
+04:48:49	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.woff (from https://www.zkey.cc/css/bootstrap.min.css)
+04:48:50	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.ttf (from https://www.zkey.cc/css/bootstrap.min.css)
+04:49:24	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.svg (from https://www.zkey.cc/css/bootstrap.min.css)
+04:49:25	Warning: 	Retry after error 500 () at link https://www.zkey.cc/platform/images/left.png (from https://www.zkey.cc/platform/)
+04:49:25	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/platform/images/right.png (from https://www.zkey.cc/platform/)
+04:54:33	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://project.zkey.cc/ (from https://www.zkey.cc/)
+04:54:33	Error: 	"No data (connection closed)" (-4) after 3 retries at link caucy.zkey.cc/ (from https://www.zkey.cc/)
+04:54:33	Error: 	"No data (connection closed)" (-4) after 3 retries at link fjedu.zkey.cc/ (from https://www.zkey.cc/)
+04:54:33	Error: 	"No data (connection closed)" (-4) after 3 retries at link cyfgdj.zkey.cc/ (from https://www.zkey.cc/)
+04:54:33	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://tshdata.zkey.cc/ (from https://www.zkey.cc/case)
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/font/svg-iconfont.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/font/svg-iconfont.js to https://nesc.zkey.cc:443/font/svg-iconfont.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/9b95297.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/9b95297.js to https://nesc.zkey.cc:443/_nuxt/9b95297.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/0619d9a.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/0619d9a.js to https://nesc.zkey.cc:443/_nuxt/0619d9a.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/991d0ed.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/991d0ed.js to https://nesc.zkey.cc:443/_nuxt/991d0ed.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/97be217.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/97be217.js to https://nesc.zkey.cc:443/_nuxt/97be217.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/251a49b.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/251a49b.js to https://nesc.zkey.cc:443/_nuxt/251a49b.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/f9835ae.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/f9835ae.js to https://nesc.zkey.cc:443/_nuxt/f9835ae.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/6cf10c8.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/6cf10c8.js to https://nesc.zkey.cc:443/_nuxt/6cf10c8.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/4e402e5.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/4e402e5.js to https://nesc.zkey.cc:443/_nuxt/4e402e5.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/1dd1883.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/1dd1883.js to https://nesc.zkey.cc:443/_nuxt/1dd1883.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/2fdb9c8.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/2fdb9c8.js to https://nesc.zkey.cc:443/_nuxt/2fdb9c8.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/f4386dc.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/f4386dc.js to https://nesc.zkey.cc:443/_nuxt/f4386dc.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/0b01296.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/0b01296.js to https://nesc.zkey.cc:443/_nuxt/0b01296.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/5dcd975.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/5dcd975.js to https://nesc.zkey.cc:443/_nuxt/5dcd975.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/8852883.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/8852883.js to https://nesc.zkey.cc:443/_nuxt/8852883.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/d6a6314.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/d6a6314.js to https://nesc.zkey.cc:443/_nuxt/d6a6314.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/6bac528.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/6bac528.js to https://nesc.zkey.cc:443/_nuxt/6bac528.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/0a1c18c.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/0a1c18c.js to https://nesc.zkey.cc:443/_nuxt/0a1c18c.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/b921d0e.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/b921d0e.js to https://nesc.zkey.cc:443/_nuxt/b921d0e.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/4ad42db.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/4ad42db.js to https://nesc.zkey.cc:443/_nuxt/4ad42db.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/a25f59d.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/a25f59d.js to https://nesc.zkey.cc:443/_nuxt/a25f59d.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/812ebf0.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/812ebf0.js to https://nesc.zkey.cc:443/_nuxt/812ebf0.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/8fe10d6.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/8fe10d6.js to https://nesc.zkey.cc:443/_nuxt/8fe10d6.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/da2b46f.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/da2b46f.js to https://nesc.zkey.cc:443/_nuxt/da2b46f.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/49cc41b.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/49cc41b.js to https://nesc.zkey.cc:443/_nuxt/49cc41b.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/9952fd3.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/9952fd3.js to https://nesc.zkey.cc:443/_nuxt/9952fd3.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/cab8c61.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/cab8c61.js to https://nesc.zkey.cc:443/_nuxt/cab8c61.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/b240493.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/b240493.js to https://nesc.zkey.cc:443/_nuxt/b240493.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/995b742.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/995b742.js to https://nesc.zkey.cc:443/_nuxt/995b742.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/bd10e14.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/bd10e14.js to https://nesc.zkey.cc:443/_nuxt/bd10e14.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/bf702a9.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/bf702a9.js to https://nesc.zkey.cc:443/_nuxt/bf702a9.js
+04:54:33	Warning: 	Moved Permanently for nesc.zkey.cc/_nuxt/f8a15f9.js
+04:54:33	Warning: 	File has moved from nesc.zkey.cc/_nuxt/f8a15f9.js to https://nesc.zkey.cc:443/_nuxt/f8a15f9.js
+04:54:33	Warning: 	Moved Permanently for cderc.zkey.cc/images/icon/premium-text.png
+04:54:33	Warning: 	File has moved from cderc.zkey.cc/images/icon/premium-text.png to https://cderc.zkey.cc:443/images/icon/premium-text.png
+04:54:33	Warning: 	Moved Permanently for cderc.zkey.cc/images/icon/premium-text1.png
+04:54:33	Warning: 	File has moved from cderc.zkey.cc/images/icon/premium-text1.png to https://cderc.zkey.cc:443/images/icon/premium-text1.png
+04:54:33	Warning: 	Moved Permanently for cderc.zkey.cc/_nuxt/fonts/iconfont.bb023c9.woff2
+04:54:33	Warning: 	File has moved from cderc.zkey.cc/_nuxt/fonts/iconfont.bb023c9.woff2 to https://cderc.zkey.cc:443/_nuxt/fonts/iconfont.bb023c9.woff2
+04:54:33	Warning: 	Moved Permanently for cderc.zkey.cc/_nuxt/fonts/iconfont.afe4220.woff
+04:54:33	Warning: 	File has moved from cderc.zkey.cc/_nuxt/fonts/iconfont.afe4220.woff to https://cderc.zkey.cc:443/_nuxt/fonts/iconfont.afe4220.woff
+04:54:33	Warning: 	Moved Permanently for cderc.zkey.cc/_nuxt/fonts/iconfont.ef2ef5f.ttf
+04:54:33	Warning: 	File has moved from cderc.zkey.cc/_nuxt/fonts/iconfont.ef2ef5f.ttf to https://cderc.zkey.cc:443/_nuxt/fonts/iconfont.ef2ef5f.ttf
+04:54:33	Warning: 	Moved Permanently for cderc.zkey.cc/_nuxt/d127343.js
+04:54:33	Warning: 	File has moved from cderc.zkey.cc/_nuxt/d127343.js to https://cderc.zkey.cc:443/_nuxt/d127343.js
+04:54:33	Warning: 	Moved Permanently for cderc.zkey.cc/_nuxt/8b3f6e3.js
+04:54:33	Warning: 	File has moved from cderc.zkey.cc/_nuxt/8b3f6e3.js to https://cderc.zkey.cc:443/_nuxt/8b3f6e3.js
+04:54:33	Warning: 	Moved Permanently for cderc.zkey.cc/_nuxt/991d0ed.js
+04:54:33	Warning: 	File has moved from cderc.zkey.cc/_nuxt/991d0ed.js to https://cderc.zkey.cc:443/_nuxt/991d0ed.js
+04:54:33	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://casmdata.zkey.cc/ (from https://www.zkey.cc/case)
+04:54:33	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://users.zkey.cc/api/Login/GetCookie (from https://csde.zkey.cc/)
+04:54:33	Warning: 	Retry after error -4 (No data (connection closed)) at link https://csde.zkey.cc/include/header.html (from https://csde.zkey.cc/)
+04:54:34	Warning: 	Retry after error 502 (Bad Gateway) at link https://njtu_alumni.zkey.cc/ (from https://www.zkey.cc/case)
+04:54:56	Warning: 	Retry after error 502 (Bad Gateway) at link https://njtuxq.zkey.cc/ (from https://www.zkey.cc/case)
+04:55:19	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://csudata.zkey.cc/ (from https://www.zkey.cc/case)
+04:55:21	Warning: 	Moved Permanently for buctstudent.zkey.cc/robots.txt
+04:55:21	Warning: 	File has moved from buctstudent.zkey.cc/robots.txt to https://buctstudent.zkey.cc:443/robots.txt
+04:55:21	Warning: 	Moved Permanently for buctstudent.zkey.cc/NewsBulletin/
+04:55:21	Warning: 	File has moved from buctstudent.zkey.cc/NewsBulletin/ to https://buctstudent.zkey.cc:443/NewsBulletin/
+04:55:21	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://ceeqda.zkey.cc/ (from https://www.zkey.cc/case)
+04:55:21	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://career-cau.zkey.cc/ (from https://www.zkey.cc/case)
+04:55:22	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://bysdc.zkey.cc/ (from https://www.zkey.cc/case)
+04:55:23	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://iehs.zkey.cc/include/iehs.zkey.cc/images/point.png (from https://iice.zkey.cc/)
+04:55:23	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://iehs.zkey.cc/include/iehs.zkey.cc/images/searchBG.png (from https://iice.zkey.cc/)
+04:55:24	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://iehs.zkey.cc/include/iehs.zkey.cc/images/FindingsBG.png (from https://iice.zkey.cc/)
+04:55:24	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://zjw.zkey.cc/ (from https://www.zkey.cc/case)
+04:55:24	Warning: 	Retry after error 502 (Bad Gateway) at link https://cyjslg.zkey.cc/ (from https://www.zkey.cc/case)
+04:55:36	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://iehs.zkey.cc/ (from https://www.zkey.cc/case)
+04:55:36	Warning: 	Retry after error 502 (Bad Gateway) at link https://dcrcgh.zkey.cc/ (from https://www.zkey.cc/case)
+04:57:03	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://tjbys.zkey.cc/ (from https://www.zkey.cc/case)
+04:57:03	Warning: 	Retry after error -4 (No data (connection closed)) at link hdxa.zkey.cc/ (from https://www.zkey.cc/case)
+04:57:04	Warning: 	Retry after error -4 (No data (connection closed)) at link sjsjsgl.zkey.cc/ (from https://www.zkey.cc/case)
+04:57:34	Warning: 	File not parsed, looks like binary: https://cyadmin.zkey.cc/api/Account/GetImgCode?w=130&h=34
+04:57:36	Warning: 	Retry after error 502 (Bad Gateway) at link https://cysy.zkey.cc/ (from https://www.zkey.cc/case)
+04:57:36	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://gdjydsj.zkey.cc/ (from https://www.zkey.cc/case)
+04:57:36	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://bysddata.zkey.cc/ (from https://www.zkey.cc/case)
+04:57:37	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://baicun2.zkey.cc/ (from https://www.zkey.cc/case)
+04:57:40	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/font/fontawesome-webfont.svg?v=4.5.0 (from https://www.zkey.cc/css/font-awesome.min.css)
+04:57:43	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/News (from https://www.zkey.cc/)
+04:57:43	Warning: 	Retry after error 500 () at link https://www.zkey.cc/images/bg1.jpg (from https://www.zkey.cc/css/index1.css)
+04:57:43	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/images/bdBlue.png (from https://www.zkey.cc/css/index1.css)
+04:57:43	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/images/bg_about.png (from https://www.zkey.cc/css/index1.css)
+04:58:17	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/images/BDXM.png (from https://www.zkey.cc/css/index1.css)
+04:58:18	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/css/loading-1.gif (from https://www.zkey.cc/css/layer.css)
+04:58:18	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/css/icon.png (from https://www.zkey.cc/css/layer.css)
+04:58:18	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/css/loading-0.gif (from https://www.zkey.cc/css/layer.css)
+04:58:18	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/css/loading-2.gif (from https://www.zkey.cc/css/layer.css)
+04:58:18	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/css/icon-ext.png (from https://www.zkey.cc/css/layer.css)
+04:58:18	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.eot (from https://www.zkey.cc/css/bootstrap.min.css)
+04:58:18	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.eot? (from https://www.zkey.cc/css/bootstrap.min.css)
+04:58:18	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 (from https://www.zkey.cc/css/bootstrap.min.css)
+04:58:18	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.woff (from https://www.zkey.cc/css/bootstrap.min.css)
+04:58:18	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.ttf (from https://www.zkey.cc/css/bootstrap.min.css)
+04:58:18	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/node_modules/._bootstrap@3.3.7@bootstrap/dist/fonts/glyphicons-halflings-regular.svg (from https://www.zkey.cc/css/bootstrap.min.css)
+04:58:18	Error: 	"" (500) after 3 retries at link https://www.zkey.cc/platform/images/left.png (from https://www.zkey.cc/platform/)
+04:58:18	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/platform/images/right.png (from https://www.zkey.cc/platform/)
+04:58:18	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://tshdata.zkey.cc/ (from https://www.zkey.cc/case)
+04:58:18	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://casmdata.zkey.cc/ (from https://www.zkey.cc/case)
+04:58:18	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://users.zkey.cc/api/Login/GetCookie (from https://csde.zkey.cc/)
+04:58:26	Error: 	"Bad Gateway" (502) after 3 retries at link https://njtu_alumni.zkey.cc/ (from https://www.zkey.cc/case)
+04:58:26	Error: 	"Bad Gateway" (502) after 3 retries at link https://njtuxq.zkey.cc/ (from https://www.zkey.cc/case)
+04:58:26	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://csudata.zkey.cc/ (from https://www.zkey.cc/case)
+04:58:26	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://ceeqda.zkey.cc/ (from https://www.zkey.cc/case)
+04:58:26	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://career-cau.zkey.cc/ (from https://www.zkey.cc/case)
+04:58:26	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://bysdc.zkey.cc/ (from https://www.zkey.cc/case)
+04:58:26	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://iehs.zkey.cc/include/iehs.zkey.cc/images/point.png (from https://iice.zkey.cc/)
+04:58:26	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://iehs.zkey.cc/include/iehs.zkey.cc/images/searchBG.png (from https://iice.zkey.cc/)
+04:58:26	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://iehs.zkey.cc/include/iehs.zkey.cc/images/FindingsBG.png (from https://iice.zkey.cc/)
+04:58:26	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://zjw.zkey.cc/ (from https://www.zkey.cc/case)
+04:58:26	Error: 	"Bad Gateway" (502) after 3 retries at link https://cyjslg.zkey.cc/ (from https://www.zkey.cc/case)
+04:58:26	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://iehs.zkey.cc/ (from https://www.zkey.cc/case)
+04:58:26	Error: 	"Bad Gateway" (502) after 3 retries at link https://dcrcgh.zkey.cc/ (from https://www.zkey.cc/case)
+04:59:01	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://tjbys.zkey.cc/ (from https://www.zkey.cc/case)
+04:59:01	Error: 	"No data (connection closed)" (-4) after 3 retries at link hdxa.zkey.cc/ (from https://www.zkey.cc/case)
+04:59:01	Error: 	"No data (connection closed)" (-4) after 3 retries at link sjsjsgl.zkey.cc/ (from https://www.zkey.cc/case)
+04:59:01	Error: 	"Not Found" (404) at link https://cyadmin.zkey.cc/lib/images/bg.png (from https://cyadmin.zkey.cc/lib/css/layout?v=aSPPUBNvRPp9-IwRbFBunn7BV1-Gb4dA8u6B40r0jog1)
+04:59:01	Error: 	"Not Found" (404) at link https://cyadmin.zkey.cc/lib/images/aiwrap.png (from https://cyadmin.zkey.cc/lib/css/layout?v=aSPPUBNvRPp9-IwRbFBunn7BV1-Gb4dA8u6B40r0jog1)
+04:59:01	Error: 	"Not Found" (404) at link https://cyadmin.zkey.cc/lib/images/icon.png (from https://cyadmin.zkey.cc/lib/css/layout?v=aSPPUBNvRPp9-IwRbFBunn7BV1-Gb4dA8u6B40r0jog1)
+04:59:01	Error: 	"Not Found" (404) at link https://cyadmin.zkey.cc/image/file-bg.png (from https://cyadmin.zkey.cc/lib/css/layout?v=aSPPUBNvRPp9-IwRbFBunn7BV1-Gb4dA8u6B40r0jog1)
+04:59:01	Error: 	"No data (connection closed)" (-4) after 3 retries at link https://cysy.zkey.cc/ (from https://www.zkey.cc/case)
+04:59:01	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://gdjydsj.zkey.cc/ (from https://www.zkey.cc/case)
+04:59:01	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://bysddata.zkey.cc/ (from https://www.zkey.cc/case)
+04:59:01	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://baicun2.zkey.cc/ (from https://www.zkey.cc/case)
+04:59:03	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/font/fontawesome-webfont.svg?v=4.5.0 (from https://www.zkey.cc/css/font-awesome.min.css)
+04:59:05	Error: 	"" (500) after 3 retries at link https://www.zkey.cc/images/bg1.jpg (from https://www.zkey.cc/css/index1.css)
+04:59:05	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/images/bdBlue.png (from https://www.zkey.cc/css/index1.css)
+04:59:05	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/images/bg_about.png (from https://www.zkey.cc/css/index1.css)
+04:59:05	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/images/BDXM.png (from https://www.zkey.cc/css/index1.css)
+04:59:05	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://users.zkey.cc/api/Login/GetCookie (from https://csde.zkey.cc/)
+04:59:05	Error: 	"Not Found" (404) at link https://csde.zkey.cc/'/images/BDlogo.png/' (from https://csde.zkey.cc/include/header.html)
+04:59:05	Error: 	"Not Found" (404) at link https://csde.zkey.cc/'/images/BDlogo_ipad.png/' (from https://csde.zkey.cc/include/header.html)
+04:59:05	Error: 	"Not Found" (404) at link https://csde.zkey.cc/'/index.html/' (from https://csde.zkey.cc/include/header.html)
+04:59:05	Error: 	"Not Found" (404) at link https://csde.zkey.cc/'/exploration/exploration.html/' (from https://csde.zkey.cc/include/header.html)
+04:59:05	Error: 	"Not Found" (404) at link https://csde.zkey.cc/'/home/home.html/' (from https://csde.zkey.cc/include/header.html)
+04:59:05	Error: 	"Not Found" (404) at link https://csde.zkey.cc/'/results/results.html/' (from https://csde.zkey.cc/include/header.html)
+04:59:05	Error: 	"Not Found" (404) at link https://csde.zkey.cc/'/images/login.png/' (from https://csde.zkey.cc/include/header.html)
+04:59:05	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://iehs.zkey.cc/include/iehs.zkey.cc/images/point.png (from https://iice.zkey.cc/)
+04:59:05	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://iehs.zkey.cc/include/iehs.zkey.cc/images/searchBG.png (from https://iice.zkey.cc/)
+04:59:05	Error: 	"error:00000001:lib(0)::reason(1)" (-5) after 3 retries at link https://iehs.zkey.cc/include/iehs.zkey.cc/images/FindingsBG.png (from https://iice.zkey.cc/)
+05:00:26	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.zkey.cc/css/font/fontawesome-webfont.svg?v=4.5.0 (from https://www.zkey.cc/css/font-awesome.min.css)
+05:00:30	Error: 	"Internal Server Error" (500) after 3 retries at link https://www.zkey.cc/css/font/fontawesome-webfont.svg?v=4.5.0 (from https://www.zkey.cc/css/font-awesome.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 hours 34 minutes 13 seconds : 1322 links scanned, 946 files written (65605425 bytes overall) [37092419 bytes received at 2254 bytes/sec], 58963509 bytes transferred using HTTP compression in 505 files, ratio 45%, 11.4 requests per connection
+(78 errors, 330 warnings, 0 messages)

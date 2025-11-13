@@ -1,0 +1,244 @@
+
+
+.solve1_banner{
+    position: relative;
+    z-index: -1;
+    margin-top: 100px;
+    background: #212637;
+}
+
+
+.bannerText_1{
+    width: 600px;
+    position: absolute;
+    z-index: 10;
+    top: 28%;
+    left: 0px;
+    color:rgba(255,255,255,0.8);
+    font-size: 35px;
+    text-align: center;
+}
+
+
+
+.bannerText{
+    width: 665px;
+    position: absolute;
+    z-index: 10;
+    top: 45%;
+    left: 0px;
+    color: rgba(255,255,255,0.8);
+    line-height: 40px;
+    font-size: 16px
+}
+
+.dsf{
+    position: absolute;
+    z-index: 10;
+    top: 25%;
+    left: 0px;
+}
+
+.dhk{
+    position: absolute;top: 30%;left: 50%;color: #fff;font-size: 14px
+}
+
+
+.test{width:600px; padding:15px 20px; margin-left:60px;background: linear-gradient(45deg, #3a59f0 10%, #9871fa 60%); position:relative;border-radius: 3px}
+.test span{width:0; height:0; font-size:0; overflow:hidden; position:absolute;}
+.test span.bot{
+    border-width:20px;
+    border-style:solid;
+    border-color:#ffffff #3a59f0 #3a59f0 #ffffff;
+    left:-40px;
+    top:70px;
+}
+.test span.top{
+    border-width:10px 20px;
+    border-style:dashed solid solid dashed;
+    border-color:transparent #ffffff #ffffff transparent;
+    left:-40px;
+    top:90px;
+}
+
+.smallpeople{
+    width: 100%;height: 372px;background: linear-gradient(45deg, #3a59f0 40%, #9871fa 60%);position: relative
+}
+
+.smallpeople_img{
+    position: absolute;top: 92px;left: 23%
+}
+
+.smallpeople_text{
+    width: 630px;
+    color: rgba(255,255,255,0.8);
+    font-size: 26px;
+    position: absolute;
+    top: 125px;
+    left: 45%;
+    text-align: center;
+    line-height: 75px;
+}
+
+
+
+@media (max-width: 1800px) {
+    /*.bannerText_1{*/
+        /*font-size: 25px;*/
+    /*}*/
+
+    /*.bannerText_1_1{*/
+        /*font-size: 25px!important;*/
+    /*}*/
+
+    /*.bannerText{*/
+        /*font-size: 15px;*/
+        /*left: 19%;*/
+    /*}*/
+
+    .dhk{
+        top: 18%;
+    }
+    .smallpeople_text{
+        left: 50%;
+    }
+    .smallpeople_img{
+        left: 20%;
+    }
+}
+
+@media (max-width: 1430px) {
+    .dhk{
+        top: 8%;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .test{
+        width: 450px;
+    }
+    .smallpeople_text{
+        width: 500px;
+        font-size: 24px;
+        left: 52%;
+    }
+    .smallpeople_img{
+        left: 15%;
+    }
+}
+
+.solve_part2{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.IndustryBackground{
+    height: 150px;padding-top: 90px;
+}
+
+.IndustryBackground_text{
+    text-align: center;font-size: 26px;display: inline-block;margin: 0 30px
+}
+
+.IndustryBackground_text1{
+    max-width:1200px;font-size: 14px;text-align: center;margin:20px auto;line-height: 25px;color: #888888;
+}
+
+
+.serviceContent{
+    width: 100%;
+    height: 622px;
+    background: #e9f1f6;
+}
+
+.serviceContent_show{
+    max-width: 1200px;
+    height: 380px;
+    margin: 0 auto;
+}
+
+
+
+
+.ServiceProcess{
+    width: 100%;
+    height: 580px;
+}
+
+.ServiceProcess_content{
+    max-width: 1200px;
+    height: 317px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ServiceProcess_content .a1{
+    text-align: center;font-size: 14px;margin-top: 15px
+}
+
+.ServiceProcess_content .a2{
+    width: 20px;border-bottom: 2px solid #3a59f0;margin: 10px auto
+}
+
+.ServiceProcess_content .a3{
+    width: 200px;font-size: 12px;color: #888888;text-align: center;margin-top: 20px;line-height: 17px
+}
+
+.ServiceProcess_content_part{
+   float: left;
+}
+
+.ServiceProcess_content_jt{
+    float: left;
+    margin-top: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.SuccessfulCases{
+    width: 100%;
+    height: 350px;
+}
+
+
+.SuccessfulCases_show{
+    width: 1100px;
+    max-width: 1100px;
+    height: 200px;
+    margin: 50px auto;
+}
+
+.SuccessfulCases_show_mid{
+    width: 950px;
+    height: 200px;
+    margin: 0 55px;
+    float: left;
+}
+
+
+.SuccessfulCases_show_mid_child{
+    font-size: 12px;
+    width: 250px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    float: left;
+    margin: 15px 43px;
+    color: #666666;
+}
+
+
+.solve_bottom{
+    width: 100%;
+    height: 356px;
+    position: relative;
+    background-image: url("../images/solve_bottom.png");
+    background-repeat:no-repeat;
+    padding-top: 80px;
+    background-size:cover;
+}
+
+
+

@@ -1,0 +1,8 @@
+https://teqd.zkey.cc/ -O "/Users/yesmola/Documents/2025 Paper /Machine Learning/1118Revised/Mirror/output/teqd_mirror" -d -%c1 -c2 -%k -T30 -R3 -A51200 -%! -F "Mozilla/5.0 (Research Mirror Tool)" +https://teqd.zkey.cc/* -https://teqd.zkey.cc/*/login* -https://teqd.zkey.cc/*/data/* -https://teqd.zkey.cc/*/api/* -https://teqd.zkey.cc/*/admin/* -https://teqd.zkey.cc/*/user/* -https://teqd.zkey.cc/*/download/* -https://teqd.zkey.cc/*/auth* -https://teqd.zkey.cc/*/session*
+File generated automatically on Thu, 13 Nov 2025 00:29:02, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

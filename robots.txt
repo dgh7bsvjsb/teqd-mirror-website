@@ -1,0 +1,3 @@
+# Static mirror for academic verification
+User-agent: *
+Allow: /
